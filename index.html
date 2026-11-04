@@ -352,9 +352,40 @@ const num = v => (v === "" || v == null || isNaN(+v)) ? null : +v;
    spec: reps/hold/time/carry {lo,hi}; holds {n (numero o elenco per serie), secs, side:'alt'|'block'} */
 const it = (ex, sets, spec, rest, o = {}) => ({ ex, key: o.key || ex, sets, spec, rest, main: !!o.main, heavy: !!o.heavy, note: o.note || null });
 const voce = v => it(v.ex, v.sets, v.spec, v.rest, v);
-let P = null, EX = {}, SIDE_EX = new Set(), DAYS = {}, DAY_ORDER = [], CYCLE = [], PH = {}, ZONES = [];
+let P = null, EX = {}, SIDE_EX = new Set(), DAYS = {}, DAY_ORDER = [], CYCLE = [], PH = {}, ZONES = [], ATT = null, ATTIVITA = [];
+const GIORNI_SETT = ["lun", "mar", "mer", "gio", "ven", "sab", "dom"];
+/* carico massimo di un attrezzo: impugnatura + dischi uguali sui due lati, divisi tra `n` attrezzi caricati insieme */
+function maxCarico(peso, dischi, n = 1) {
+  const perLato = (dischi || []).reduce((t, d) => t + d.kg * Math.floor(d.quantita / (2 * n)), 0);
+  return peso + 2 * perLato;
+}
+/* profilo di attrezzatura attivo, con i carichi massimi calcolati */
+function attrezzatura(p, errs) {
+  const A = p.attrezzatura || {}, id = A.profiloAttivo, pr = A.profili?.[id];
+  if (!pr) { errs.push(`profilo di attrezzatura "${id}" non trovato`); return null; }
+  for (const d of pr.dischi || []) if (!(d.kg > 0) || !(d.quantita >= 0)) errs.push(`dischi del profilo "${id}" non validi`);
+  const im = pr.impugnatureManubrio, n = im?.quantita || 0;
+  return { id, nome: pr.nome || id, panca: !!pr.panca, profilo: pr,
+    maxBilanciere: pr.bilanciere ? maxCarico(pr.bilanciere.peso, pr.dischi) : null,
+    maxManubri: n >= 2 ? maxCarico(im.peso, pr.dischi, 2) : null,
+    maxManubrioSingolo: n >= 1 ? maxCarico(im.peso, pr.dischi, 1) : null };
+}
+/* esercizio con la variante del profilo attivo, se c'è */
+function conVariante(e, prof) {
+  const v = e.varianti?.[prof]; if (!e.varianti) return e;
+  const { varianti, ...base } = e;
+  return v ? { ...base, ...v, info: { ...base.info, ...v.info } } : base;
+}
 function applyProgram(p) {
-  const errs = [], ex = p.esercizi || {}, blocks = {};
+  const errs = [], blocks = {};
+  const att = attrezzatura(p, errs);
+  const ex = Object.fromEntries(Object.entries(p.esercizi || {}).map(([k, e]) => [k, conVariante(e, att?.id)]));
+  const attivita = (p.attivita || []).map(a => {
+    if (!a.id || !a.nome) errs.push("attività senza id o nome");
+    for (const g of a.giorni || []) if (!GIORNI_SETT.includes(g)) errs.push(`attività "${a.id}": giorno "${g}" non valido`);
+    if (!(a.durataMin > 0)) errs.push(`attività "${a.id}": durataMin mancante`);
+    return { ...a, giorni: a.giorni || [] };
+  });
   const check = v => { if (!ex[v.ex]) errs.push(`esercizio "${v.ex}" non trovato`); return voce(v); };
   for (const [k, list] of Object.entries(p.blocchi || {})) blocks[k] = list.map(check);
   const items = list => list.flatMap(v => v.blocco ? (blocks[v.blocco] || (errs.push(`blocco "${v.blocco}" non trovato`), [])) : [check(v)]);
@@ -364,7 +395,7 @@ function applyProgram(p) {
   for (const r of p.sostituzioni || []) check(r.con);
   for (const k of ["rientro", "costruzione", "scarico"]) if (!p.fasi?.nomi?.[k] || !p.riserva?.fasi?.[k]) errs.push(`fase "${k}" incompleta`);
   if (errs.length) throw new Error(errs.join("; "));
-  P = p; EX = ex; SIDE_EX = new Set(p.tenutePerLato || []); DAYS = days;
+  P = p; EX = ex; SIDE_EX = new Set(p.tenutePerLato || []); DAYS = days; ATT = att; ATTIVITA = attivita;
   DAY_ORDER = p.ordineGiorni; CYCLE = p.ciclo; PH = p.fasi.nomi; ZONES = p.zone || [];
 }
 async function loadProgram() {
@@ -614,7 +645,8 @@ function suggestion(sess, item) {
   if (!ok) return null;
   if (ex.load === "kg") {
     const kg = Math.max(...done.map(s => s.kg || 0));
-    if (ex.db && kg >= P.maxManubriKg) return ["Sei al massimo dei manubri.", " Scendi in 3–4 secondi o aggiungi una pausa nel punto più duro."];
+    const max = ex.db ? (ex.manubri === 1 ? ATT.maxManubrioSingolo : ATT.maxManubri) : ATT.maxBilanciere;
+    if (max != null && kg >= max) return [ex.db ? "Sei al massimo dei manubri." : "Sei al massimo del bilanciere.", " Scendi in 3–4 secondi o aggiungi una pausa nel punto più duro."];
     return [`Hai chiuso tutte le serie a ${hi}.`, ` Aumenta il peso e riparti da ${item.spec.lo}.`];
   }
   if (ex.load === "extra") return [`Hai chiuso tutte le serie a ${hi}.`, " Aggiungi zavorra con lo zaino o passa alla variante più difficile."];

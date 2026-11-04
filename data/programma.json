@@ -1220,7 +1220,20 @@
     }
   ],
   "schiena": {"soglia":4,"giorno":"f1"},
-  "maxManubriKg": 15,
+  "attrezzatura": {
+    "profiloAttivo": "casa",
+    "profili": {
+      "casa": {
+        "nome": "Casa",
+        "bilanciere": {"peso":10},
+        "dischi": [{"kg":2,"quantita":8},{"kg":1,"quantita":4}],
+        "impugnatureManubrio": {"peso":1,"quantita":2},
+        "panca": false,
+        "altro": ["sbarra","paralleline","anelli","tappetino","elastici"]
+      }
+    }
+  },
+  "attivita": [],
   "zone": [
     "Schiena bassa",
     "Schiena alta",
