@@ -44,6 +44,7 @@ Gli id (chiavi di `esercizi` e `giorni`, e la `key` delle voci) finiscono nei da
   - `varianti` (facoltativo): `{ profilo: { campi da sostituire } }`. Con quel profilo attivo i campi della variante sostituiscono quelli base, e `info` si unisce campo per campo. Esempio: `"varianti": { "palestra": { "name": "Distensioni su panca", "info": { "pos": "…" } } }`. L'id dell'esercizio resta lo stesso, quindi lo storico non si spezza;
   - `img`: nome del file in `img/` senza `-0.jpg`, oppure `null`. `imgNote` facoltativa;
   - `yt`: ricerca YouTube. `tempo`: fasi del ritmo guidato, `[["Giù", 3], ["Su", 1.5]]`;
+  - `etichettaTimer` (facoltativo, solo `type: "time"`): parola grande mostrata dal timer guidato, ad esempio `"Cammina"`. Se manca compare "Vai";
   - `info`: `lead`, `mus`, `pos`, `ese`, `resp`, `senti`, `no`, `extra` (elenco di `[titolo, testo]`).
 - `tenutePerLato`: esercizi di tipo `hold` da fare su entrambi i lati.
 - `blocchi`: `{ nome: [voce, ...] }`, cioè riscaldamenti e mobilità riusati in più giorni.

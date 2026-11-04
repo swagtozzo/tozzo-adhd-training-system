@@ -1,6 +1,6 @@
 /* Rimessa in forma: funzionamento offline.
    Per pubblicare un aggiornamento, cambia VERSION: l'app mostrerà "Aggiorna ora". */
-const VERSION = "1.3";
+const VERSION = "1.4";
 const CACHE = "rimessa-in-forma-" + VERSION;
 const ASSETS = [
   "./",

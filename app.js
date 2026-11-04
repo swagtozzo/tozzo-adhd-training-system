@@ -101,7 +101,7 @@ function renderProgramError(msg) {
 }
 
 /* ---------- stato e salvataggio ---------- */
-const APP_VERSION = "1.3";
+const APP_VERSION = "1.4";
 const DEF = { kind: "settings", start: null, phase: "auto", weak: "?", sound: true, vibrate: true, wake: true, prep: 3, lastBackup: null };
 const S = { mode: "loading", sessions: {}, settings: { ...DEF }, measures: { kind: "measures", list: [] },
   view: "oggi", day: "g1", activeId: null, draft: null, loaded: false, pickedDay: false, banner: null,
@@ -661,7 +661,7 @@ function startGuide(sess, item, i) {
       if (sd && q === 0) steps.push({ label: "Cambia lato", dur: 5000, kind: "switch", info: `Ora il lato ${SIDE_L[ss[1]].toLowerCase()}` });
     });
   } else if (ex.type === "time") {
-    steps.push({ label: "Cammina", dur: item.spec.hi * 60000, lo: item.spec.lo * 60000, up: true, kind: "work", info: `Obiettivo ${range(item.spec.lo, item.spec.hi)} minuti`, end: el => { s.min = Math.round(el / 6000) / 10; } });
+    steps.push({ label: ex.etichettaTimer || "Vai", dur: item.spec.hi * 60000, lo: item.spec.lo * 60000, up: true, kind: "work", info: `Obiettivo ${range(item.spec.lo, item.spec.hi)} minuti`, end: el => { s.min = Math.round(el / 6000) / 10; } });
   }
   C = { mode: "seq", sess, item, i, steps, k: 0, t0: now(), min: false };
   openCoach(); stepStartFx(steps[0]);
