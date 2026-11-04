@@ -35,9 +35,17 @@ L'app ti ricorda il backup se sono passate più di due settimane dall'ultimo.
 
 ## Aggiornare l'app
 
-Quando sostituisci i file su GitHub, apri `sw.js` e cambia il numero in `const VERSION = "1.2";`, per esempio in `"1.3"`. Alla successiva apertura l'app mostra **Aggiorna ora**. I dati non vengono toccati.
+Quando sostituisci i file su GitHub, apri `sw.js` e cambia il numero in `const VERSION = "1.4";`, per esempio in `"1.5"`. Alla successiva apertura l'app mostra **Aggiorna ora**. I dati non vengono toccati.
 
 Il programma (esercizi, giorni, serie, recuperi, fasi) sta in `data/programma.json`: per cambiarlo basta modificare quel file, senza toccare `index.html`. Anche in questo caso va cambiato `VERSION` in `sw.js`, altrimenti il telefono continua a usare il programma vecchio salvato per l'uso offline. Se il file contiene un errore, l'app lo dice all'apertura e non tocca i dati. Lo schema del file è descritto in `CLAUDE.md`.
+
+## Seconda app: Allenamento a casa
+
+Nella cartella `casa` c'è l'app "Allenamento a casa" (sedute A, B e Test con progressione automatica, misure e backup). È un'app separata, con la sua icona e i suoi dati:
+
+1. Apri con Chrome `https://TUONOME.github.io/allenamento/casa/` e installala come sopra.
+2. Per portare i dati dall'artefatto su Claude: lì apri **Storico**, premi **Copia backup**, poi nell'app installata apri **Storico** e incolla il testo in **Ripristina incollando il testo**, oppure usa **Carica file**.
+3. Per aggiornarla cambia `VERSION` in `casa/sw.js`: la versione nuova si usa dalla riapertura successiva.
 
 ## Licenze
 

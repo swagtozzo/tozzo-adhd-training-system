@@ -104,5 +104,21 @@ Confronta gli screenshot prima e dopo una modifica. Nota: al primissimo avvio l'
 3. Anche una modifica al solo `data/programma.json` richiede di cambiare `VERSION`: altrimenti il telefono continua a usare la copia in cache.
 4. Dopo il merge su `main`, GitHub Pages pubblica. Sul telefono compare "Aggiorna ora".
 
+## Seconda app: Allenamento a casa (`casa/`)
+È l'app che Andrea usa adesso per la fase di riavvicinamento con l'attrezzatura di casa. È nata come artefatto ed è pubblicata come PWA separata su `…/casa/`.
+- `casa/index.html`: un solo file con CSS, markup e script. Le immagini degli esercizi stanno inline in base64 (`IM`), i disegni SVG animati in `DRAW`. Tutto il programma (EX, DAYS, WARM, STRETCH, TESTS) è nel codice.
+- Logica principale:
+  - `prescribe()`: doppia progressione con il voto dell'ultima serie (facile, ok, duro), poi +2 kg, discesa lenta o livello successivo;
+  - `phase()`: cicli da 5 settimane, con le ripetizioni in canna per settimana (`RIRT`), lo scarico e le domande di fine ciclo;
+  - seduta Test, misure, backup.
+- Dati: localStorage `casa-allenamento-v1`, l'intero stato `S`. Il backup è `JSON.stringify(S)` e si ripristina incollando il testo o caricando un file. **Non cambiare chiave né formato**: Andrea ripristina backup copiati dall'artefatto.
+- `casa/sw.js`:
+  - scope `/casa/` e cache `casa-allenamento-<VERSION>`, che non tocca l'app principale né le sue cache `rimessa-in-forma-*` (e viceversa);
+  - precarica anche i font e le icone condivisi in `../fonts/` e `../icons/`;
+  - si aggiorna con `skipWaiting`: la versione nuova si usa dalla riapertura successiva, non c'è un prompt "Aggiorna ora".
+- `casa/manifest.webmanifest`: senza `id`, così l'id dell'app è `/casa/`, diverso da quello dell'app principale. Con `"id": "./"` le due app risulterebbero la stessa.
+- Rilascio: cambia `VERSION` in `casa/sw.js`, e `ASSETS` se aggiungi file.
+- Il service worker dell'app principale (scope radice) copre anche `/casa/`, ma le pagine di `casa/` sono controllate da quello più specifico. Non mettere file di `casa/` negli `ASSETS` principali.
+
 ## Libri di riferimento
 In `testi fitness/` (solo in locale, ignorata da git) ci sono libri su allenamento, schiena (McGill), mobilità e nutrizione. Per informazioni tecniche su esercizi, schiena o nutrizione puoi cercarvi dentro, ma **solo quando serve** e **senza mai committarli** né copiarne parti nel repo.
