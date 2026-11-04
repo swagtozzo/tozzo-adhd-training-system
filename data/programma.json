@@ -139,6 +139,26 @@
         "extra": [["Se il fastidio cresce camminando","Dividi in 2–3 uscite da 10 minuti."]]
       }
     },
+    "shadow": {
+      "name": "Shadow boxing a intervalli",
+      "type": "time",
+      "load": "none",
+      "img": null,
+      "yt": "shadow boxing principianti tecnica base",
+      "info": {
+        "lead": "Prepara il fiato e le spalle per il pugilato senza attrezzi. Si fa dopo la camminata, quando sei già caldo.",
+        "mus": "Spalle, core, gambe e cuore: è soprattutto lavoro aerobico.",
+        "pos": "In guardia: piedi alla larghezza delle spalle, uno avanti e uno dietro, ginocchia morbide, mani alte vicino al viso, gomiti stretti, mento basso.",
+        "ese": "Alterna 30 secondi svelti (diretti e ganci leggeri, sempre muovendo i piedi) e 30 secondi calmi (passi leggeri in guardia, braccia rilassate). Colpi veloci ma senza mai stendere del tutto il gomito.",
+        "resp": "Espira brevemente a ogni colpo, dal naso o a labbra strette.",
+        "senti": "Fiato corto nei tratti svelti ma recuperabile in quelli calmi, spalle calde ma non bruciate.",
+        "no": "Stendere di scatto il gomito fino in fondo, abbassare le mani, stare piantato sui talloni, andare al massimo dalla prima settimana.",
+        "extra": [
+          ["Progressione","Prima volta 6 minuti, poi 1 minuto in più a settimana fino a 10."],
+          ["Se la schiena dà fastidio","Colpi più lenti e senza ruotare forte il busto, oppure salta e fai solo la camminata."]
+        ]
+      }
+    },
     "aperture": {
       "name": "Aperture con elastico",
       "type": "reps",
@@ -367,7 +387,7 @@
         "resp": "Espira salendo, inspira scendendo.",
         "senti": "Il bicipite, dalla piega del gomito in su.",
         "no": "Dare slancio con la schiena, portare i gomiti avanti, fermarti a metà discesa.",
-        "extra": [["Al limite dei 15 kg","Scendi in 4 secondi o fai una pausa di 1 secondo con il gomito piegato a 90°."]]
+        "extra": [["Al massimo dei tuoi manubri","Scendi in 4 secondi o fai una pausa di 1 secondo con il gomito piegato a 90°."]]
       }
     },
     "estensioni": {
@@ -476,7 +496,7 @@
         "no": "Ruotare il busto per tirare, scrollare la spalla verso l'orecchio, tirare verso il petto con il gomito largo.",
         "extra": [
           ["Lati","Inizia dal lato più debole e fai lo stesso numero di ripetizioni con l'altro."],
-          ["Al limite dei 15 kg","Pausa di 2 secondi in alto e discesa in 3–4 secondi."]
+          ["Al massimo dei tuoi manubri","Pausa di 2 secondi in alto e discesa in 3–4 secondi."]
         ]
       }
     },
@@ -498,7 +518,7 @@
         "no": "Rimbalzare con i gomiti sul pavimento, aprire i gomiti a 90°, inarcare la schiena.",
         "extra": [
           [
-            "Al limite dei 15 kg",
+            "Al massimo dei tuoi manubri",
             "Salita normale e discesa in 4 secondi, oppure serie più lunghe fino a 20–25 ripetizioni."
           ]
         ]
@@ -606,7 +626,7 @@
       "yt": "squat bulgaro manubri tecnica",
       "tempo": [["Giù",2.5],["Su",1.5]],
       "info": {
-        "lead": "L'esercizio principale per le cosce con i tuoi pesi: lavorando su una gamba, 15 kg per mano bastano a lungo. Aiuta anche a pareggiare le differenze tra i lati.",
+        "lead": "L'esercizio principale per le cosce con i tuoi pesi: lavorando su una gamba, anche pochi chili bastano a lungo. Aiuta anche a pareggiare le differenze tra i lati.",
         "mus": "Quadricipiti e grande gluteo della gamba davanti, adduttori. Il medio gluteo tiene l'equilibrio.",
         "pos": "Dorso del piede dietro appoggiato su una sedia o sul divano, all'incirca all'altezza del ginocchio. Piede davanti a circa un passo lungo di distanza. Manubri lungo i fianchi.",
         "ese": "Scendi in verticale finché il ginocchio dietro si avvicina a terra e la coscia davanti è circa parallela al pavimento. Risali spingendo con tutto il piede davanti. Busto dritto: lavori di più i quadricipiti. Leggermente inclinato in avanti: lavori di più i glutei.",
@@ -702,7 +722,7 @@
         "resp": "Regolare, con l'addome leggermente rigido.",
         "senti": "Il fianco opposto al manubrio.",
         "no": "Inclinare il busto, alzare la spalla che regge il peso, ruotare il busto, accelerare perdendo il controllo.",
-        "extra": [["Al limite dei 15 kg","Fai tratti più lunghi."]]
+        "extra": [["Al massimo dei tuoi manubri","Fai tratti più lunghi."]]
       }
     },
     "stacco": {
@@ -1120,6 +1140,7 @@
       "tag": "Recupero attivo",
       "sections": [
         {"t":"Camminata","items":[{"ex":"camminata","sets":1,"spec":{"lo":30,"hi":30},"rest":0,"key":"camminata-mer"}]},
+        {"t":"Fiato per il pugilato","note":"dopo la camminata","items":[{"ex":"shadow","sets":1,"spec":{"lo":6,"hi":10},"rest":0,"key":"shadow-mer","note":"30 secondi svelti e 30 calmi. Parti da 6 minuti e aggiungi 1 minuto a settimana."}]},
         {
           "t": "Mobilità",
           "note": "tutti gli allungamenti, una volta",
