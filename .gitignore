@@ -1,0 +1,11 @@
+# Libri di riferimento protetti da copyright (anche oltre 100 MB): solo in locale
+testi fitness/
+
+# Archivi e documenti locali
+*.zip
+*.epub
+Tozzo Training System.pdf
+
+# Strumenti di test locali
+node_modules/
+test-results/

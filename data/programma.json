@@ -1,0 +1,1252 @@
+{
+  "schema": 1,
+  "nome": "Programma di rimessa in forma",
+  "esercizi": {
+    "gatto-mucca": {
+      "name": "Gatto-mucca",
+      "type": "reps",
+      "load": "none",
+      "img": "Cat_Stretch",
+      "yt": "gatto mucca esercizio schiena cat cow",
+      "tempo": [["Arrotonda",3],["Scendi",3]],
+      "info": {
+        "lead": "Muove la colonna in tutta la sua ampiezza comoda per sciogliere la rigidità. Non è un allungamento.",
+        "mus": "Estensori della schiena e addominali, che si alternano.",
+        "pos": "A quattro zampe, mani sotto le spalle, ginocchia sotto le anche, braccia distese, collo in linea con la schiena.",
+        "ese": "Parti dal bacino arrotondandolo verso il basso, poi lascia che si arrotondino zona lombare, dorsale e infine la testa. Poi inverti, sempre partendo dal bacino. Circa 3 secondi per direzione.",
+        "resp": "Espira mentre arrotondi, inspira mentre scendi.",
+        "senti": "Movimento distribuito su tutta la colonna, senza un punto che si blocca o fa male.",
+        "no": "Forzare i fine corsa, muovere solo il collo, piegare i gomiti, spostare il peso indietro sui talloni.",
+        "extra": [["Se dà fastidio","Dimezza l'ampiezza del movimento."]]
+      }
+    },
+    "curl-up": {
+      "name": "Curl-up modificato",
+      "type": "holds",
+      "load": "none",
+      "img": null,
+      "yt": "McGill curl up modificato tecnica",
+      "info": {
+        "lead": "Allena gli addominali senza piegare la zona lombare.",
+        "mus": "Retto dell'addome e obliqui. Il collo resta passivo.",
+        "pos": "Sdraiato sulla schiena, una gamba distesa e l'altra piegata con il piede a terra. Mani con i palmi in giù sotto la curva lombare, gomiti a terra.",
+        "ese": "Irrigidisci leggermente l'addome, poi solleva testa e spalle di pochi centimetri come un blocco unico, con il mento in posizione neutra. Tieni 10 secondi e scendi. A metà serie cambia la gamba piegata.",
+        "resp": "Continuo durante la tenuta; conta a voce alta per esserne sicuro.",
+        "senti": "Tensione nell'addome, collo e spalle rilassati, nessun fastidio lombare.",
+        "no": "Tirare la testa con le mani, portare il mento al petto, schiacciare la schiena sulle mani, salire fino a staccare del tutto le scapole, trattenere il fiato.",
+        "extra": [
+          [
+            "Se fa male il collo",
+            "Appoggia la lingua al palato e immagina la testa appoggiata su una bilancia; accorcia le tenute a 5 secondi."
+          ],
+          ["Quando diventa facile","Solleva anche i gomiti da terra durante la tenuta."]
+        ]
+      }
+    },
+    "plank-laterale": {
+      "name": "Plank laterale",
+      "type": "holds",
+      "load": "none",
+      "img": "Side_Bridge",
+      "imgNote": "In foto la versione completa, sui piedi.",
+      "yt": "side plank ginocchia McGill tecnica",
+      "info": {
+        "lead": "Dà stabilità laterale al tronco, quella che serve quando porti un peso da un lato.",
+        "mus": "Obliqui e quadrato dei lombi del lato verso terra, medio gluteo.",
+        "pos": "Sul fianco, avambraccio a terra con il gomito esattamente sotto la spalla. Versione base: ginocchia piegate a 90°. Versione completa: gambe tese, piede di sopra davanti all'altro.",
+        "ese": "Irrigidisci l'addome e solleva il bacino fino a formare una linea retta tra ginocchia (o caviglie), anche e spalle. Tieni, poi scendi. Stesso numero di tenute su entrambi i lati.",
+        "resp": "Continuo, contando a voce alta.",
+        "senti": "Il fianco verso il pavimento e il gluteo laterale che lavorano.",
+        "no": "Lasciar cadere il bacino o spingerlo indietro, far sprofondare la spalla verso l'orecchio, mettere il gomito davanti alla spalla, ruotare il busto verso terra.",
+        "extra": [
+          [
+            "Se la spalla dà fastidio",
+            "Fallo in piedi, appoggiato al muro con l'avambraccio e i piedi a un passo di distanza."
+          ]
+        ]
+      }
+    },
+    "bird-dog": {
+      "name": "Bird dog",
+      "type": "holds",
+      "load": "none",
+      "img": null,
+      "yt": "bird dog esercizio tecnica schiena",
+      "info": {
+        "lead": "Insegna a schiena e glutei a lavorare tenendo la colonna ferma mentre braccia e gambe si muovono.",
+        "mus": "Grande gluteo della gamba sollevata, muscoli lungo la colonna, spalla del braccio teso. L'addome stabilizza.",
+        "pos": "A quattro zampe, mani sotto le spalle, ginocchia sotto le anche, schiena nella sua curva naturale.",
+        "ese": "Irrigidisci leggermente l'addome. Allunga insieme braccio e gamba opposti fino all'orizzontale, spingendo il tallone indietro e chiudendo il pugno della mano tesa. Tieni 10 secondi, torna giù e cambia lato.",
+        "resp": "Continuo durante la tenuta.",
+        "senti": "Il gluteo della gamba sollevata e i muscoli lungo la colonna, con il bacino immobile come se reggessi un bicchiere d'acqua sulla zona lombare.",
+        "no": "Alzare la gamba sopra il livello del busto inarcando la schiena, ruotare il bacino, usare lo slancio, guardare in alto.",
+        "extra": [["Se perdi l'equilibrio","Muovi prima solo la gamba, poi aggiungi il braccio."]]
+      }
+    },
+    "ponte": {
+      "name": "Ponte per glutei",
+      "type": "reps",
+      "load": "none",
+      "img": "Butt_Lift_Bridge",
+      "yt": "ponte glutei glute bridge tecnica",
+      "tempo": [["Su",1.5],["Stringi",2],["Giù",2.5]],
+      "info": {
+        "lead": "Attiva i glutei, che sostengono il bacino e scaricano la zona lombare quando ti pieghi e sollevi.",
+        "mus": "Grande gluteo; i posteriori della coscia aiutano.",
+        "pos": "Sdraiato sulla schiena, ginocchia piegate, piedi alla larghezza delle anche, talloni a circa una spanna dai glutei, braccia lungo i fianchi.",
+        "ese": "Spingi sui talloni e solleva il bacino finché spalle, anche e ginocchia sono in linea. Stringi i glutei 2 secondi, poi scendi in 2–3 secondi.",
+        "resp": "Espira mentre sali, inspira mentre scendi.",
+        "senti": "Soprattutto i glutei.",
+        "no": "Inarcare la schiena in cima, spingere con le punte, lasciar cadere le ginocchia verso l'interno.",
+        "extra": [
+          [
+            "Se senti altro",
+            "Crampi dietro le cosce: avvicina i piedi ai glutei. Fastidio lombare: sali un po' meno e arrotonda leggermente il bacino verso l'alto prima di salire."
+          ]
+        ]
+      }
+    },
+    "ginocchia-petto": {
+      "name": "Ginocchia al petto",
+      "type": "hold",
+      "load": "none",
+      "img": null,
+      "yt": "ginocchia al petto stretching lombare",
+      "info": {
+        "lead": "Esercizio di sollievo, non di cura: fallo solo se ti fa stare meglio.",
+        "mus": "Allunga leggermente i muscoli della zona lombare e i glutei.",
+        "pos": "Sdraiato sulla schiena, ginocchia piegate, piedi a terra.",
+        "ese": "Porta un ginocchio alla volta verso il petto, poi entrambi, tenendo le mani dietro le cosce e non sulle ginocchia. Tieni 20–30 secondi.",
+        "resp": "Lento, con un'espirazione lunga che lascia rilassare i muscoli.",
+        "senti": "Un allungamento leggero tra zona lombare e glutei.",
+        "no": "Tirare forte, alzare la testa da terra, farlo nella prima ora dopo il risveglio."
+      }
+    },
+    "camminata": {
+      "name": "Camminata",
+      "type": "time",
+      "load": "none",
+      "img": null,
+      "yt": "camminata veloce postura corretta",
+      "info": {
+        "lead": "Riduce le ricadute di mal di schiena ed è la base dell'attività aerobica del programma.",
+        "mus": "Tutto il corpo, soprattutto gambe e glutei.",
+        "pos": "Busto dritto, sguardo avanti e non a terra, braccia che oscillano libere, mani fuori dalle tasche.",
+        "ese": "Passi corti e frequenti, con il piede che atterra quasi sotto di te. Il piede rulla dal tallone alla pianta fino alla spinta con l'alluce. Ritmo svelto: riesci a parlare ma non a cantare.",
+        "resp": "Naturale, dal naso o dalla bocca come ti viene.",
+        "senti": "La schiena che si scioglie dopo i primi minuti.",
+        "no": "Passi lunghi che fanno pestare il tallone, camminare guardando il telefono, fermarti del tutto se hai una ricaduta.",
+        "extra": [["Se il fastidio cresce camminando","Dividi in 2–3 uscite da 10 minuti."]]
+      }
+    },
+    "aperture": {
+      "name": "Aperture con elastico",
+      "type": "reps",
+      "load": "none",
+      "img": "Band_Pull_Apart",
+      "yt": "band pull apart tecnica elastico",
+      "tempo": [["Apri",1.5],["Torna",2.5]],
+      "info": {
+        "lead": "Rinforza la parte alta della schiena e bilancia gli esercizi di spinta.",
+        "mus": "Deltoide posteriore, trapezio medio e inferiore, romboidi.",
+        "pos": "In piedi, elastico davanti a te all'altezza delle spalle, braccia tese, mani alla larghezza delle spalle.",
+        "ese": "Apri le braccia fino a portare l'elastico al petto, avvicinando le scapole. Torna lentamente.",
+        "resp": "Espira mentre apri, inspira mentre torni.",
+        "senti": "Dietro le spalle e tra le scapole.",
+        "no": "Alzare le spalle verso le orecchie, inarcare la schiena, piegare i gomiti, lasciar tornare l'elastico di colpo.",
+        "extra": [["Per regolare la difficoltà","Mani più vicine sull'elastico lo rendono più duro."]]
+      }
+    },
+    "scapole": {
+      "name": "Scapole alla sbarra",
+      "type": "reps",
+      "load": "none",
+      "img": "Scapular_Pull-Up",
+      "yt": "scapular pull up tecnica",
+      "tempo": [["Scapole giù",1],["Tieni",1],["Torna su",2]],
+      "info": {
+        "lead": "Prepara spalle e presa alle trazioni e insegna a muovere le scapole senza usare le braccia.",
+        "mus": "Trapezio inferiore, gran dorsale, romboidi.",
+        "pos": "Appeso alla sbarra a braccia tese, presa poco più larga delle spalle, pollice attorno alla sbarra.",
+        "ese": "Senza piegare i gomiti, abbassa le scapole: il petto sale un po' e il corpo si alza di pochi centimetri. Tieni 1 secondo, poi torna giù lentamente fino a essere completamente appeso.",
+        "resp": "Espira mentre abbassi le scapole, inspira mentre torni.",
+        "senti": "Sotto e tra le scapole, non nelle braccia.",
+        "no": "Piegare i gomiti, dondolare, lasciarti cadere di colpo nella posizione appesa.",
+        "extra": [["Se non riesci a stare appeso","Tieni i piedi su una sedia per scaricare parte del peso."]]
+      }
+    },
+    "rotazioni-esterne": {
+      "name": "Rotazioni esterne con elastico",
+      "type": "reps",
+      "load": "none",
+      "side": true,
+      "img": "External_Rotation_with_Band",
+      "yt": "rotazione esterna spalla elastico tecnica",
+      "tempo": [["Ruota fuori",1.5],["Torna",2.5]],
+      "info": {
+        "lead": "Rinforza i piccoli muscoli che tengono la spalla centrata durante spinte e trazioni.",
+        "mus": "Sottospinoso e piccolo rotondo, parte della cuffia dei rotatori.",
+        "pos": "In piedi, elastico fissato di lato all'altezza del gomito e tenuto con la mano più lontana. Gomito piegato a 90° e attaccato al fianco; un asciugamano arrotolato tra gomito e fianco aiuta a tenerlo lì.",
+        "ese": "Ruota l'avambraccio verso l'esterno tenendo il gomito fermo, poi torna lentamente.",
+        "resp": "Espira mentre ruoti verso l'esterno.",
+        "senti": "Dietro la spalla.",
+        "no": "Staccare il gomito dal fianco, ruotare il busto, usare un elastico così duro da perdere il controllo."
+      }
+    },
+    "goblet": {
+      "name": "Goblet squat leggero con pausa",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Goblet_Squat",
+      "yt": "goblet squat tecnica",
+      "tempo": [["Giù",3],["Pausa",3],["Su",1.5]],
+      "info": {
+        "lead": "Prepara anche, ginocchia e caviglie ai giorni di parte bassa. È anche la base tecnica dello squat frontale.",
+        "mus": "Quadricipiti, glutei, adduttori.",
+        "pos": "Piedi poco più larghi delle spalle con le punte leggermente aperte, manubrio tenuto in verticale contro il petto.",
+        "ese": "Scendi tra le gambe tenendo il busto alto e le ginocchia nella direzione delle punte. Resta 2–3 secondi in basso, poi risali spingendo con tutto il piede.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Cosce e glutei, con il peso distribuito su tutto il piede.",
+        "no": "Alzare i talloni, lasciar crollare le ginocchia verso l'interno, sbilanciarti sulle punte.",
+        "extra": [
+          ["Ginocchia oltre le punte","È normale che avanzino; con ginocchia sane non serve impedirlo."],
+          ["Se i talloni si alzano","Metti un piccolo rialzo sotto i talloni o allarga un po' i piedi."]
+        ]
+      }
+    },
+    "affondi-cl": {
+      "name": "Affondi indietro a corpo libero",
+      "type": "reps",
+      "load": "none",
+      "side": true,
+      "img": "Dumbbell_Rear_Lunge",
+      "imgNote": "In foto con i manubri: nel riscaldamento li fai senza pesi.",
+      "yt": "affondo indietro tecnica reverse lunge",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "info": {
+        "lead": "Stessa tecnica degli affondi indietro con manubri, senza pesi e con meno ripetizioni.",
+        "mus": "Quadricipiti e grande gluteo della gamba davanti.",
+        "pos": "In piedi, piedi alla larghezza delle anche.",
+        "ese": "Passo lungo indietro, scendi finché il ginocchio dietro sfiora il pavimento, peso soprattutto sul piede davanti, risali spingendo con quel piede.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Coscia e gluteo della gamba davanti.",
+        "no": "Lasciar crollare il ginocchio davanti verso l'interno, piegare il busto in avanti, sbattere il ginocchio a terra."
+      }
+    },
+    "trazioni": {
+      "name": "Trazioni presa prona",
+      "type": "reps",
+      "load": "extra",
+      "img": "Pullups",
+      "yt": "trazioni alla sbarra tecnica corretta",
+      "tempo": [["Su",1.5],["Giù",3]],
+      "info": {
+        "lead": "L'esercizio principale per la larghezza della schiena.",
+        "mus": "Gran dorsale, romboidi, trapezio medio e inferiore, bicipiti e brachiale. L'addome tiene il corpo fermo.",
+        "pos": "Presa con i palmi in avanti, poco più larga delle spalle, pollice attorno alla sbarra. Appeso a braccia tese, gambe unite e leggermente in avanti, glutei e addome contratti.",
+        "ese": "Prima abbassa le scapole, poi tira i gomiti verso i fianchi finché il mento supera la sbarra. Scendi in 2–3 secondi fino a braccia distese.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "I dorsali, sotto le ascelle e lungo i fianchi, più che le braccia.",
+        "no": "Slanciarti con le gambe, fare mezze ripetizioni, protendere il mento in avanti per arrivare alla sbarra, far salire le spalle verso le orecchie, lasciarti cadere in discesa.",
+        "extra": [
+          [
+            "Se non ne fai almeno 5",
+            "Fai solo la discesa lenta: salta o sali su una sedia per arrivare in alto e scendi in 3–5 secondi. Oppure usa un elastico sotto le ginocchia come assistenza."
+          ],
+          ["Nel rientro","Fermati con 3 ripetizioni di riserva anche se ne faresti di più."]
+        ]
+      }
+    },
+    "dip": {
+      "name": "Dip agli anelli",
+      "type": "reps",
+      "load": "extra",
+      "img": null,
+      "yt": "ring dips tecnica dip agli anelli",
+      "tempo": [["Giù",3],["Su",1.5]],
+      "info": {
+        "lead": "Spinta per petto e tricipiti. Gli anelli sono instabili, quindi la spalla lavora molto anche per stabilizzare.",
+        "mus": "Pettorale, soprattutto la parte bassa, tricipiti, deltoide anteriore.",
+        "pos": "In sostegno sugli anelli a braccia tese, anelli vicini ai fianchi, spalle basse, busto leggermente inclinato in avanti, gambe unite.",
+        "ese": "Scendi in 2–3 secondi piegando i gomiti, tenendo gli anelli vicini al corpo, finché le spalle arrivano poco sotto i gomiti o fin dove la spalla è comoda. Spingi fino a braccia tese.",
+        "resp": "Inspira scendendo, espira spingendo.",
+        "senti": "Petto e tricipiti. Nessun dolore sulla parte anteriore della spalla.",
+        "no": "Scendere oltre il punto comodo, lasciare che gli anelli si allarghino, far salire le spalle verso le orecchie, rimbalzare in basso.",
+        "extra": [
+          ["Nel rientro","Nelle prime due settimane l'app li sostituisce con le tenute in sostegno a braccia tese."],
+          [
+            "Se è troppo difficile o dà fastidio",
+            "Dip con i piedi appoggiati a terra davanti a te, oppure piegamenti agli anelli."
+          ]
+        ]
+      }
+    },
+    "tenuta-anelli": {
+      "name": "Tenuta in sostegno agli anelli",
+      "type": "hold",
+      "load": "none",
+      "img": null,
+      "yt": "ring support hold tecnica",
+      "info": {
+        "lead": "Abitua spalle e polsi alla posizione dei dip prima di iniziare il movimento. Sostituisce i dip nelle settimane 1 e 2.",
+        "mus": "Tricipiti, pettorale, deltoide anteriore, muscoli stabilizzatori della spalla.",
+        "pos": "Sugli anelli a braccia completamente tese, anelli vicini ai fianchi, spalle basse e lontane dalle orecchie, corpo fermo.",
+        "ese": "Sali in sostegno e resta immobile, cercando di tenere gli anelli fermi e vicini al corpo.",
+        "resp": "Continuo e regolare.",
+        "senti": "Tricipiti e spalle che lavorano per tenere gli anelli fermi.",
+        "no": "Piegare i gomiti, far salire le spalle verso le orecchie, lasciar allargare gli anelli.",
+        "extra": [["Se tremi troppo","Appoggia le punte dei piedi su una sedia davanti a te per scaricare parte del peso."]]
+      }
+    },
+    "rematore-bil": {
+      "name": "Rematore con bilanciere",
+      "type": "reps",
+      "load": "kg",
+      "img": "Bent_Over_Barbell_Row",
+      "yt": "rematore bilanciere tecnica corretta",
+      "tempo": [["Tira",1.5],["Tieni",1],["Giù",2.5]],
+      "info": {
+        "lead": "Costruisce lo spessore della schiena. La parte bassa della schiena lavora da ferma per tenere la posizione.",
+        "mus": "Gran dorsale, romboidi, trapezio medio, deltoide posteriore, bicipiti. Muscoli lungo la colonna e posteriori della coscia tengono la posizione.",
+        "pos": "Piedi alla larghezza delle anche, presa poco più larga delle spalle. Piegati come nello stacco rumeno fino a un busto inclinato di circa 45°, ginocchia leggermente piegate, schiena neutra, bilanciere sotto le spalle.",
+        "ese": "Tira il bilanciere verso la parte bassa del petto portando i gomiti indietro. Pausa di 1 secondo, poi scendi controllato fino a braccia tese, senza cambiare l'inclinazione del busto.",
+        "resp": "Inspira e irrigidisci l'addome prima di tirare, espira dopo aver portato su il bilanciere.",
+        "senti": "Tra e sotto le scapole, nei dorsali.",
+        "no": "Raddrizzare il busto per dare slancio, scrollare le spalle verso l'alto, tirare solo con le braccia, perdere la posizione della schiena nelle ultime ripetizioni.",
+        "extra": [
+          [
+            "Se la schiena si affatica o fa male",
+            "Sostituiscilo con il rematore agli anelli: corpo inclinato sotto gli anelli, talloni a terra, tiri il petto verso le mani. La zona lombare resta scarica."
+          ]
+        ]
+      }
+    },
+    "lento": {
+      "name": "Lento in piedi con bilanciere",
+      "type": "reps",
+      "load": "kg",
+      "img": "Standing_Military_Press",
+      "yt": "lento avanti in piedi bilanciere tecnica",
+      "tempo": [["Spingi",1.5],["Giù",2.5]],
+      "info": {
+        "lead": "Il principale esercizio di spinta verso l'alto, per spalle e tricipiti.",
+        "mus": "Deltoide anteriore e laterale, tricipiti, parte alta del petto. Glutei e addome stabilizzano.",
+        "pos": "Bilanciere appoggiato davanti alle spalle, presa poco più larga delle spalle, polsi dritti, avambracci verticali. Piedi alla larghezza delle anche, glutei e addome contratti.",
+        "ese": "Spingi il bilanciere in linea retta verso l'alto, spostando la testa leggermente indietro per farlo passare. Appena supera la fronte riporta la testa sotto il bilanciere. In cima braccia tese e bilanciere sopra il centro del piede. Scendi controllato.",
+        "resp": "Inspira e irrigidisci l'addome in basso, trattieni durante la spinta, espira in cima.",
+        "senti": "Spalle e tricipiti; glutei e addome contratti per tutta la serie.",
+        "no": "Inarcare la zona lombare spingendo la pancia in avanti, aiutarti con le gambe, piegare i polsi all'indietro, allargare troppo i gomiti.",
+        "extra": [
+          [
+            "In cima",
+            "È normale che le scapole salgano un po' insieme alle braccia; non serve tenerle forzatamente basse."
+          ],
+          [
+            "Se inarchi la schiena o hai fastidio lombare",
+            "Fallo in ginocchio su un solo ginocchio con un manubrio, oppure seduto con la schiena appoggiata."
+          ],
+          ["Se il trapezio destro si irrigidisce","Salta l'esercizio per quella settimana."]
+        ]
+      }
+    },
+    "curl": {
+      "name": "Curl con manubri",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Dumbbell_Bicep_Curl",
+      "yt": "curl manubri bicipiti tecnica",
+      "tempo": [["Su",1.5],["Giù",2.5]],
+      "iso": true,
+      "info": {
+        "lead": "Isolamento per i bicipiti.",
+        "mus": "Bicipite, brachiale, brachioradiale.",
+        "pos": "In piedi, manubri lungo i fianchi con i palmi in avanti, gomiti vicini al busto, spalle basse.",
+        "ese": "Piega i gomiti portando i manubri verso le spalle senza spostare i gomiti in avanti. Scendi in 2–3 secondi fino a braccia quasi distese.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "Il bicipite, dalla piega del gomito in su.",
+        "no": "Dare slancio con la schiena, portare i gomiti avanti, fermarti a metà discesa.",
+        "extra": [["Al limite dei 15 kg","Scendi in 4 secondi o fai una pausa di 1 secondo con il gomito piegato a 90°."]]
+      }
+    },
+    "estensioni": {
+      "name": "Estensioni sopra la testa con manubrio",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Standing_Dumbbell_Triceps_Extension",
+      "yt": "estensioni tricipiti sopra la testa manubrio tecnica",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "iso": true,
+      "info": {
+        "lead": "Isolamento per i tricipiti con il braccio sopra la testa, posizione in cui il capo lungo del tricipite è allungato.",
+        "mus": "Tricipite, soprattutto il capo lungo.",
+        "pos": "In piedi o seduto con la schiena appoggiata, un manubrio tenuto a due mani sopra la testa a braccia tese. Addome contratto.",
+        "ese": "Piega solo i gomiti facendo scendere il manubrio dietro la testa, con i gomiti che puntano in alto. Risali fino a braccia tese.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Il retro del braccio, in allungamento in basso e in contrazione in alto.",
+        "no": "Inarcare la schiena, aprire molto i gomiti, scendere di colpo dietro la testa.",
+        "extra": [
+          [
+            "Se dà fastidio a spalle o gomiti",
+            "Fallo seduto con lo schienale, oppure sostituiscilo con il French press."
+          ]
+        ]
+      }
+    },
+    "face-pull": {
+      "name": "Face pull con elastico",
+      "type": "reps",
+      "load": "none",
+      "img": "Face_Pull",
+      "imgNote": "In foto con il cavo: tu usi l'elastico fissato all'altezza del viso.",
+      "yt": "face pull elastico tecnica",
+      "tempo": [["Tira",1.5],["Torna",2.5]],
+      "iso": true,
+      "info": {
+        "lead": "Rinforza la parte posteriore delle spalle e bilancia tutte le spinte. Utile anche per il trapezio destro, perché allena i muscoli che abbassano e stabilizzano le scapole.",
+        "mus": "Deltoide posteriore, trapezio medio e inferiore, rotatori esterni della spalla.",
+        "pos": "Elastico fissato all'altezza del viso, presa con i palmi in giù, braccia tese, un passo indietro per mettere in tensione l'elastico.",
+        "ese": "Tira verso il viso separando le mani, con i gomiti alti all'altezza delle spalle. Finisci con le mani ai lati delle orecchie, come in un doppio bicipite. Torna lentamente.",
+        "resp": "Espira tirando, inspira tornando.",
+        "senti": "Dietro le spalle e tra le scapole.",
+        "no": "Scrollare le spalle verso le orecchie, inarcare la schiena, tirare verso il petto con i gomiti bassi."
+      }
+    },
+    "piegamenti-anelli": {
+      "name": "Piegamenti agli anelli",
+      "type": "reps",
+      "load": "extra",
+      "img": "Suspended_Push-Up",
+      "imgNote": "In foto con le cinghie e il corpo più inclinato: tu parti con gli anelli a pochi centimetri da terra.",
+      "yt": "ring push up piegamenti agli anelli tecnica",
+      "tempo": [["Giù",2.5],["Spingi",1.5]],
+      "info": {
+        "lead": "Spinta orizzontale per il petto. Rispetto ai piegamenti a terra, gli anelli chiedono più lavoro alla spalla per stabilizzare.",
+        "mus": "Pettorale, tricipiti, deltoide anteriore, dentato anteriore. Addome e glutei tengono il corpo dritto.",
+        "pos": "Anelli a pochi centimetri da terra, mani sotto le spalle, corpo dritto dai talloni alla testa, glutei e addome contratti.",
+        "ese": "Scendi in 2–3 secondi con i gomiti a circa 45° dal busto finché le mani arrivano ai lati del petto. Spingi fino a braccia tese e, in cima, spingi ancora un po' allontanando le scapole tra loro.",
+        "resp": "Inspira scendendo, espira spingendo.",
+        "senti": "Petto e tricipiti, con il corpo rigido come una tavola.",
+        "no": "Lasciar cadere il bacino, aprire i gomiti a 90° dal busto, far allargare gli anelli, spingere la testa in avanti.",
+        "extra": [
+          ["Se è troppo difficile","Alza gli anelli per lavorare più inclinato, oppure appoggia le ginocchia."],
+          ["Quando diventa facile","Piedi rialzati su una sedia, poi uno zaino con peso sulla schiena."]
+        ]
+      }
+    },
+    "trazioni-supine": {
+      "name": "Trazioni presa supina",
+      "type": "reps",
+      "load": "extra",
+      "img": "Chin-Up",
+      "yt": "chin up trazioni presa supina tecnica",
+      "tempo": [["Su",1.5],["Giù",3]],
+      "info": {
+        "lead": "Stesso movimento delle trazioni prone, con più lavoro per i bicipiti.",
+        "mus": "Gran dorsale, bicipiti, brachiale, romboidi, trapezio medio e inferiore.",
+        "pos": "Presa con i palmi verso di te, alla larghezza delle spalle. Appeso a braccia tese, glutei e addome contratti.",
+        "ese": "Abbassa prima le scapole, poi tira portando i gomiti verso i fianchi finché il mento supera la sbarra. Scendi in 2–3 secondi fino a braccia distese.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "Dorsali e bicipiti.",
+        "no": "Slancio con le gambe, mezze ripetizioni, mento proteso, discesa di colpo.",
+        "extra": [
+          ["Se hai fastidio ai polsi o ai gomiti","Usa gli anelli, che lasciano ruotare le mani liberamente."],
+          ["Se non ne fai almeno 5","Solo discese lente da 3–5 secondi, o assistenza con l'elastico."]
+        ]
+      }
+    },
+    "rematore-man": {
+      "name": "Rematore con manubrio a un braccio",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "side": true,
+      "img": "One-Arm_Dumbbell_Row",
+      "yt": "rematore manubrio un braccio tecnica",
+      "tempo": [["Tira",1.5],["Tieni",1],["Giù",2.5]],
+      "info": {
+        "lead": "Rematore con il busto appoggiato: carica la schiena senza affaticare la zona lombare e lavora un lato alla volta.",
+        "mus": "Gran dorsale, romboidi, trapezio medio, deltoide posteriore, bicipite.",
+        "pos": "Mano e ginocchio dello stesso lato appoggiati su una panca o una sedia stabile, altro piede a terra. Schiena neutra e quasi parallela al pavimento, manubrio appeso sotto la spalla.",
+        "ese": "Tira il manubrio verso l'anca tenendo il gomito vicino al fianco. Pausa di 1 secondo, poi scendi lasciando che la scapola si allunghi in avanti.",
+        "resp": "Espira tirando, inspira scendendo.",
+        "senti": "Il dorsale, dall'ascella al fianco.",
+        "no": "Ruotare il busto per tirare, scrollare la spalla verso l'orecchio, tirare verso il petto con il gomito largo.",
+        "extra": [
+          ["Lati","Inizia dal lato più debole e fai lo stesso numero di ripetizioni con l'altro."],
+          ["Al limite dei 15 kg","Pausa di 2 secondi in alto e discesa in 3–4 secondi."]
+        ]
+      }
+    },
+    "distensioni": {
+      "name": "Distensioni a terra con manubri",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Dumbbell_Floor_Press",
+      "yt": "dumbbell floor press distensioni a terra tecnica",
+      "tempo": [["Giù",2.5],["Pausa",1],["Spingi",1.5]],
+      "info": {
+        "lead": "Spinta per petto e tricipiti senza panca. Il pavimento limita la discesa, cosa che spesso le spalle apprezzano.",
+        "mus": "Pettorale, tricipiti, deltoide anteriore.",
+        "pos": "Sdraiato a terra con le ginocchia piegate, manubri sopra il petto a braccia tese, scapole leggermente avvicinate e basse.",
+        "ese": "Scendi in 2–3 secondi con i gomiti a 30–45° dal busto finché il retro delle braccia tocca terra. Resta 1 secondo senza rilassarti, poi spingi su.",
+        "resp": "Inspira scendendo, espira spingendo.",
+        "senti": "Il petto, con i tricipiti che aiutano.",
+        "no": "Rimbalzare con i gomiti sul pavimento, aprire i gomiti a 90°, inarcare la schiena.",
+        "extra": [
+          [
+            "Al limite dei 15 kg",
+            "Salita normale e discesa in 4 secondi, oppure serie più lunghe fino a 20–25 ripetizioni."
+          ]
+        ]
+      }
+    },
+    "alzate": {
+      "name": "Alzate laterali con manubri",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Side_Lateral_Raise",
+      "yt": "alzate laterali manubri tecnica",
+      "tempo": [["Su",1.5],["Giù",2.5]],
+      "iso": true,
+      "info": {
+        "lead": "Isolamento per la parte laterale della spalla, quella che dà larghezza.",
+        "mus": "Deltoide laterale.",
+        "pos": "In piedi, manubri ai lati delle cosce, busto leggermente inclinato in avanti, gomiti appena piegati, spalle basse.",
+        "ese": "Solleva i manubri di lato fino all'altezza delle spalle, guidando il movimento con i gomiti e tenendo i polsi in linea con l'avambraccio. Scendi in 2–3 secondi.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "La parte laterale della spalla, non il collo.",
+        "no": "Dare slancio con il busto, scrollare le spalle verso le orecchie, salire molto oltre l'altezza delle spalle.",
+        "extra": [
+          ["Peso","Leggero: questo esercizio rende con serie lunghe, 12–20 ripetizioni."],
+          [
+            "Se senti lavorare il trapezio più della spalla",
+            "Abbassa il peso e immagina di spingere i manubri lontano dal corpo, verso le pareti, invece che verso l'alto."
+          ]
+        ]
+      }
+    },
+    "martello": {
+      "name": "Curl a martello",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Hammer_Curls",
+      "yt": "hammer curl curl a martello tecnica",
+      "tempo": [["Su",1.5],["Giù",2.5]],
+      "iso": true,
+      "info": {
+        "lead": "Curl con i palmi che si guardano: sposta parte del lavoro sui muscoli dell'avambraccio e sul brachiale.",
+        "mus": "Brachioradiale, brachiale, bicipite.",
+        "pos": "In piedi, manubri lungo i fianchi con i palmi rivolti verso le cosce, gomiti vicini al busto.",
+        "ese": "Piega i gomiti portando i manubri verso le spalle senza ruotare i polsi. Scendi in 2–3 secondi.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "La parte esterna dell'avambraccio e il braccio.",
+        "no": "Dare slancio con la schiena, portare i gomiti avanti, ruotare i polsi durante il movimento."
+      }
+    },
+    "french": {
+      "name": "French press con bilanciere",
+      "type": "reps",
+      "load": "kg",
+      "img": "EZ-Bar_Skullcrusher",
+      "imgNote": "In foto su panca declinata con bilanciere sagomato: tu sdraiato a terra o su panca piana con il bilanciere dritto.",
+      "yt": "french press bilanciere tecnica",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "iso": true,
+      "info": {
+        "lead": "Isolamento per i tricipiti da sdraiato, utile perché il bilanciere permette di caricare più dei manubri.",
+        "mus": "Tricipite.",
+        "pos": "Sdraiato a terra o su una panca, bilanciere sopra il petto a braccia tese, presa alla larghezza delle spalle o poco meno.",
+        "ese": "Inclina leggermente le braccia verso la testa, poi piega solo i gomiti portando il bilanciere verso la fronte o appena dietro la testa. Distendi le braccia senza muovere le spalle.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Il retro del braccio.",
+        "no": "Allargare i gomiti, muovere le spalle avanti e indietro, scendere veloce verso il viso.",
+        "extra": [
+          ["Sicurezza","Usa un peso che controlli bene in ogni ripetizione, visto che scende verso la testa."],
+          ["Se fa male ai gomiti","Usa due manubri con i palmi che si guardano."]
+        ]
+      }
+    },
+    "stacco-rumeno": {
+      "name": "Stacco rumeno con bilanciere",
+      "type": "reps",
+      "load": "kg",
+      "img": "Romanian_Deadlift",
+      "yt": "stacco rumeno bilanciere tecnica",
+      "tempo": [["Giù",3],["Su",1.5]],
+      "info": {
+        "lead": "Il movimento chiave della parte bassa: insegna a piegarti dalle anche, rinforza posteriori della coscia e glutei e abitua la schiena al carico.",
+        "mus": "Posteriori della coscia, grande gluteo. I muscoli lungo la colonna lavorano da fermi; dorsali e avambracci tengono il bilanciere.",
+        "pos": "In piedi, piedi alla larghezza delle anche, bilanciere in mano con presa alla larghezza delle spalle, braccia tese, ginocchia leggermente piegate, scapole basse.",
+        "ese": "Spingi il bacino indietro e lascia che il busto si inclini mantenendo la schiena neutra. Il bilanciere scorre a contatto con le cosce. Scendi finché senti una tensione forte dietro le cosce, di solito tra sotto le ginocchia e metà tibia. Risali spingendo il bacino in avanti e stringendo i glutei.",
+        "resp": "In piedi inspira e irrigidisci l'addome, trattieni in discesa e risalita, espira in cima.",
+        "senti": "I posteriori della coscia che si allungano in discesa e i glutei in salita, non la zona lombare.",
+        "no": "Piegare troppo le ginocchia trasformandolo in uno squat, allontanare il bilanciere dalle gambe, scendere oltre il punto in cui la schiena inizia ad arrotondarsi, inarcarti all'indietro in cima.",
+        "extra": [
+          [
+            "Nel rientro",
+            "Usa un peso con cui potresti fare almeno 3 ripetizioni in più, e filmati di lato una volta per controllare la schiena."
+          ],
+          ["Se senti la zona lombare","Riduci il peso e scendi meno."]
+        ]
+      }
+    },
+    "bulgaro": {
+      "name": "Squat bulgaro con manubri",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "side": true,
+      "img": "Split_Squat_with_Dumbbells",
+      "yt": "squat bulgaro manubri tecnica",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "info": {
+        "lead": "L'esercizio principale per le cosce con i tuoi pesi: lavorando su una gamba, 15 kg per mano bastano a lungo. Aiuta anche a pareggiare le differenze tra i lati.",
+        "mus": "Quadricipiti e grande gluteo della gamba davanti, adduttori. Il medio gluteo tiene l'equilibrio.",
+        "pos": "Dorso del piede dietro appoggiato su una sedia o sul divano, all'incirca all'altezza del ginocchio. Piede davanti a circa un passo lungo di distanza. Manubri lungo i fianchi.",
+        "ese": "Scendi in verticale finché il ginocchio dietro si avvicina a terra e la coscia davanti è circa parallela al pavimento. Risali spingendo con tutto il piede davanti. Busto dritto: lavori di più i quadricipiti. Leggermente inclinato in avanti: lavori di più i glutei.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Coscia e gluteo della gamba davanti. La gamba dietro serve solo da appoggio.",
+        "no": "Lasciar crollare il ginocchio davanti verso l'interno, alzare il tallone davanti, spingerti con la gamba dietro, mettere il piede troppo vicino alla sedia.",
+        "extra": [
+          ["Lati","Inizia sempre dal lato più debole e fai lo stesso numero di ripetizioni con l'altro."],
+          ["Se l'equilibrio è un problema","Fallo senza manubri, con una mano appoggiata al muro."]
+        ]
+      }
+    },
+    "hip-thrust": {
+      "name": "Hip thrust con bilanciere",
+      "type": "reps",
+      "load": "kg",
+      "img": "Barbell_Hip_Thrust",
+      "yt": "hip thrust bilanciere tecnica a casa",
+      "tempo": [["Su",1.5],["Stringi",1.5],["Giù",2]],
+      "info": {
+        "lead": "Il modo più diretto di caricare i glutei nel punto di massima contrazione.",
+        "mus": "Grande gluteo; posteriori della coscia e quadricipiti aiutano.",
+        "pos": "Parte alta della schiena, appena sotto le scapole, appoggiata al bordo di un divano o di una panca che non scivola. Bilanciere sulle anche con un asciugamano piegato sotto. Piedi alla larghezza delle anche.",
+        "ese": "Spingi sui talloni e sali finché il busto è parallelo al pavimento e le tibie sono verticali. In cima tieni il mento verso il petto e il bacino leggermente arrotondato verso l'alto, stringi i glutei 1–2 secondi, poi scendi controllato.",
+        "resp": "Inspira in basso, espira in cima.",
+        "senti": "I glutei, soprattutto in cima.",
+        "no": "Inarcare la zona lombare in cima, guardare il soffitto, usare un appoggio che si sposta.",
+        "extra": [
+          [
+            "Posizione dei piedi",
+            "Se senti troppo i posteriori della coscia, avvicinali; se senti troppo le cosce davanti, allontanali."
+          ],
+          ["Se il bilanciere è scomodo","Usa un manubrio sulle anche o fallo su una gamba sola."]
+        ]
+      }
+    },
+    "leg-curl": {
+      "name": "Leg curl agli anelli",
+      "type": "reps",
+      "load": "none",
+      "img": "Ball_Leg_Curl",
+      "imgNote": "In foto con la palla: con gli anelli il movimento è lo stesso.",
+      "yt": "ring leg curl anelli tecnica",
+      "tempo": [["Piega",1.5],["Distendi",2.5]],
+      "info": {
+        "lead": "Allena i posteriori della coscia nella loro seconda funzione, piegare il ginocchio, che lo stacco non copre.",
+        "mus": "Posteriori della coscia; glutei e addome tengono il bacino alto.",
+        "pos": "Anelli a 30–40 cm da terra. Sdraiato sulla schiena con i talloni negli anelli, gambe tese, braccia a terra lungo i fianchi.",
+        "ese": "Solleva il bacino come in un ponte, poi porta i talloni verso i glutei piegando le ginocchia, sempre con il bacino alto. Torna a gambe tese in 2–3 secondi.",
+        "resp": "Espira mentre pieghi, inspira mentre distendi.",
+        "senti": "Dietro le cosce, con i glutei contratti.",
+        "no": "Lasciar cadere il bacino, inarcare la schiena, far oscillare gli anelli.",
+        "extra": [
+          ["All'inizio","I crampi dietro le cosce sono frequenti; se arrivano, riduci le ripetizioni."],
+          ["Se è troppo difficile","Fai solo la fase di ritorno lenta, oppure tieni il bacino appoggiato a terra."]
+        ]
+      }
+    },
+    "polpacci": {
+      "name": "Polpacci su un gradino, una gamba",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "side": true,
+      "img": "Standing_Dumbbell_Calf_Raise",
+      "imgNote": "In foto a terra con due manubri: tu sul bordo di un gradino, una gamba alla volta.",
+      "yt": "calf raise una gamba gradino tecnica",
+      "tempo": [["Giù",2],["Pausa",1.5],["Su",1],["Tieni",1]],
+      "iso": true,
+      "info": {
+        "lead": "Rinforza i polpacci, utili per camminata, salti e stabilità della caviglia.",
+        "mus": "Gastrocnemio, che lavora di più a ginocchio teso, e soleo.",
+        "pos": "Avampiede sul bordo di un gradino con il tallone fuori, ginocchio teso, mano libera a un muro, manubrio nella mano dello stesso lato.",
+        "ese": "Scendi con il tallone sotto il livello del gradino in 2 secondi, resta 1–2 secondi in basso, poi sali sulle punte più in alto possibile e tieni 1 secondo.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "Il polpaccio, in allungamento in basso e in contrazione in alto.",
+        "no": "Rimbalzare in basso, piegare il ginocchio per aiutarti, fare mezze ripetizioni."
+      }
+    },
+    "carry": {
+      "name": "Camminata con un manubrio",
+      "type": "carry",
+      "load": "kg",
+      "db": true,
+      "side": true,
+      "img": null,
+      "yt": "suitcase carry tecnica",
+      "info": {
+        "lead": "Allena il tronco a resistere all'inclinazione laterale, lo stesso gesto di portare l'attrezzatura da pesca.",
+        "mus": "Obliqui e quadrato dei lombi del lato opposto al peso, avambraccio e presa, trapezio.",
+        "pos": "Manubrio in una mano a braccio teso, spalle alla stessa altezza, busto alto.",
+        "ese": "Cammina a passo normale per 30–40 metri senza piegarti verso il peso, poi cambia mano.",
+        "resp": "Regolare, con l'addome leggermente rigido.",
+        "senti": "Il fianco opposto al manubrio.",
+        "no": "Inclinare il busto, alzare la spalla che regge il peso, ruotare il busto, accelerare perdendo il controllo.",
+        "extra": [["Al limite dei 15 kg","Fai tratti più lunghi."]]
+      }
+    },
+    "stacco": {
+      "name": "Stacco da terra con bilanciere",
+      "type": "reps",
+      "load": "kg",
+      "img": "Barbell_Deadlift",
+      "yt": "stacco da terra tecnica corretta principianti",
+      "tempo": [["Respira",2],["Su",2],["Giù",2.5]],
+      "info": {
+        "lead": "L'esercizio di forza per tutto il corpo. Si fa sempre lontano dal cedimento: conta la qualità di ogni ripetizione.",
+        "mus": "Glutei, posteriori della coscia, quadricipiti, muscoli lungo la colonna, dorsali, trapezio, presa.",
+        "pos": "Piedi alla larghezza delle anche, bilanciere sopra il centro del piede a 2–3 cm dalle tibie. Afferralo appena fuori dalle gambe, piega anche e ginocchia finché le tibie lo toccano. Petto aperto, schiena neutra, braccia tese, spalle appena davanti al bilanciere.",
+        "ese": "Prima di partire tira leggermente il bilanciere verso l'alto per togliere il gioco, con le spalle basse e i dorsali attivi. Poi spingi il pavimento con le gambe: il bilanciere sale lungo le gambe. In cima anche e ginocchia si distendono insieme, glutei contratti. Per scendere porta prima il bacino indietro, poi piega le ginocchia quando il bilanciere le ha superate.",
+        "resp": "A ogni ripetizione, con il bilanciere a terra, fai un respiro profondo e irrigidisci l'addome. Trattieni finché il bilanciere supera le ginocchia, espira in cima o una volta tornato a terra.",
+        "senti": "Gambe e glutei che spingono, schiena che resta ferma e dura.",
+        "no": "Strappare il bilanciere da terra, alzare il bacino prima del petto, lasciare che il bilanciere si allontani dalle gambe, inarcarti all'indietro in cima, arrivare al cedimento.",
+        "extra": [
+          [
+            "Altezza del bilanciere",
+            "Con dischi piccoli il bilanciere parte troppo basso: appoggia i dischi su un rialzo stabile finché il bilanciere arriva circa a metà tibia."
+          ],
+          ["Nel rientro","Sempre almeno 3 ripetizioni di riserva. Filmati di lato una volta a settimana."]
+        ]
+      }
+    },
+    "squat-frontale": {
+      "name": "Squat frontale con due manubri",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "img": "Front_Squats_With_Two_Kettlebells",
+      "imgNote": "In foto con due kettlebell: con i manubri appoggiati sulle spalle la posizione è la stessa.",
+      "yt": "squat frontale manubri tecnica",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "info": {
+        "lead": "Squat per i quadricipiti con il peso davanti, che aiuta a tenere il busto alto.",
+        "mus": "Quadricipiti, glutei, adduttori. Addome e parte alta della schiena tengono il busto dritto.",
+        "pos": "Un'estremità di ogni manubrio appoggiata sulla spalla, gomiti alti e in avanti. Piedi poco più larghi delle spalle, punte leggermente aperte.",
+        "ese": "Scendi più in basso che puoi mantenendo la schiena neutra, con le ginocchia nella direzione delle punte. Risali spingendo con tutto il piede.",
+        "resp": "Inspira e irrigidisci l'addome prima di scendere, espira dopo il tratto più duro della salita.",
+        "senti": "Le cosce davanti e i glutei.",
+        "no": "Lasciar cadere i gomiti, che porta il busto in avanti, alzare i talloni, far crollare le ginocchia verso l'interno.",
+        "extra": [["Se i manubri sulle spalle sono scomodi","Fai il goblet squat con un manubrio solo e più ripetizioni."]]
+      }
+    },
+    "affondi": {
+      "name": "Affondi indietro con manubri",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "side": true,
+      "img": "Dumbbell_Rear_Lunge",
+      "yt": "affondo indietro manubri tecnica",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "info": {
+        "lead": "Lavoro su una gamba per cosce e glutei. Il passo indietro è più facile da controllare di quello in avanti.",
+        "mus": "Quadricipiti e grande gluteo della gamba davanti, adduttori. Il medio gluteo tiene l'equilibrio.",
+        "pos": "In piedi, manubri lungo i fianchi, piedi alla larghezza delle anche.",
+        "ese": "Fai un passo lungo indietro e scendi finché il ginocchio dietro sfiora il pavimento, con il peso soprattutto sul piede davanti. Risali spingendo con quel piede e torna alla posizione di partenza.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Coscia e gluteo della gamba davanti.",
+        "no": "Lasciar crollare il ginocchio davanti verso l'interno, fare un passo troppo corto che alza il tallone davanti, piegare il busto in avanti, sbattere il ginocchio a terra.",
+        "extra": [["Lati","Inizia dal lato più debole; puoi fare tutte le ripetizioni su una gamba e poi passare all'altra."]]
+      }
+    },
+    "rumeno-una": {
+      "name": "Stacco rumeno su una gamba",
+      "type": "reps",
+      "load": "kg",
+      "db": true,
+      "side": true,
+      "img": "Kettlebell_One-Legged_Deadlift",
+      "imgNote": "In foto con un kettlebell: con il manubrio il movimento è lo stesso.",
+      "yt": "stacco rumeno una gamba manubrio tecnica",
+      "tempo": [["Giù",2.5],["Su",1.5]],
+      "info": {
+        "lead": "Posteriori della coscia e glutei su un lato alla volta, con molto lavoro di equilibrio per anca e piede.",
+        "mus": "Posteriori della coscia e grande gluteo della gamba d'appoggio; medio gluteo e muscoli del piede per l'equilibrio.",
+        "pos": "In piedi su una gamba con il ginocchio leggermente piegato, manubrio nella mano opposta alla gamba d'appoggio.",
+        "ese": "Inclina il busto in avanti mentre la gamba libera va indietro, restando in linea con il busto. Tieni il bacino parallelo al pavimento. Scendi finché senti tensione dietro la coscia, poi risali spingendo il bacino in avanti.",
+        "resp": "Inspira scendendo, espira salendo.",
+        "senti": "Dietro la coscia e nel gluteo della gamba d'appoggio.",
+        "no": "Aprire il bacino ruotandolo verso l'esterno, con la punta del piede dietro che gira in fuori; arrotondare la schiena; distendere del tutto il ginocchio d'appoggio.",
+        "extra": [
+          ["Lati","Inizia dal lato più debole."],
+          [
+            "Se perdi l'equilibrio",
+            "Appoggia la punta del piede dietro a terra, oppure tieni la mano libera su un muro."
+          ]
+        ]
+      }
+    },
+    "pallof": {
+      "name": "Pallof press con elastico",
+      "type": "reps",
+      "load": "none",
+      "side": true,
+      "img": "Pallof_Press",
+      "imgNote": "In foto con il cavo: tu usi l'elastico fissato di lato.",
+      "yt": "pallof press elastico tecnica",
+      "tempo": [["Spingi",1],["Tieni",2],["Torna",1.5]],
+      "iso": true,
+      "info": {
+        "lead": "Allena il tronco a resistere alla rotazione: l'addome lavora per non farsi girare.",
+        "mus": "Obliqui, retto e trasverso dell'addome; i glutei stabilizzano il bacino.",
+        "pos": "Elastico fissato di lato all'altezza del petto. In piedi di fianco all'ancoraggio, piedi alla larghezza delle spalle, ginocchia morbide, mani al petto con l'elastico già in tensione.",
+        "ese": "Spingi le mani dritte davanti al petto, tieni 2 secondi resistendo alla trazione dell'elastico, poi riportale al petto.",
+        "resp": "Espira spingendo, inspira tornando.",
+        "senti": "L'addome, soprattutto sul lato verso l'elastico.",
+        "no": "Ruotare busto o bacino verso l'elastico, inarcare la schiena, usare un elastico troppo debole.",
+        "extra": [["Quando diventa facile","Allontanati dall'ancoraggio o fallo in ginocchio su un solo ginocchio."]]
+      }
+    },
+    "ginocchia-appeso": {
+      "name": "Ginocchia al petto appeso alla sbarra",
+      "type": "reps",
+      "load": "none",
+      "img": "Hanging_Leg_Raise",
+      "imgNote": "In foto a gambe tese: tu porti le ginocchia al petto.",
+      "yt": "hanging knee raise tecnica",
+      "tempo": [["Su",1.5],["Giù",2.5]],
+      "iso": true,
+      "info": {
+        "lead": "Esercizio per addome e flessori dell'anca, che allena anche la presa.",
+        "mus": "Flessori dell'anca e retto dell'addome, che lavora soprattutto quando il bacino si arrotonda in cima; obliqui; presa.",
+        "pos": "Appeso alla sbarra, scapole leggermente abbassate, corpo fermo.",
+        "ese": "Porta le ginocchia verso il petto e, alla fine del movimento, arrotonda il bacino verso l'alto. Scendi in 2–3 secondi senza oscillare.",
+        "resp": "Espira salendo, inspira scendendo.",
+        "senti": "L'addome in basso, non solo le anche.",
+        "no": "Oscillare o usare lo slancio, lasciar cadere le gambe, fermarti con le cosce a 90° senza arrotondare il bacino.",
+        "extra": [
+          ["Se dà fastidio alla schiena","Sostituiscilo con il curl-up modificato."],
+          [
+            "Se cede la presa prima dell'addome",
+            "Fallo sdraiato, portando le ginocchia al petto e sollevando il bacino da terra."
+          ]
+        ]
+      }
+    },
+    "st-petto": {
+      "name": "Petto alla porta",
+      "type": "hold",
+      "load": "none",
+      "img": null,
+      "yt": "stretching pettorale porta",
+      "info": {
+        "lead": "Allunga il petto, che tende ad accorciarsi con le spinte e con la posizione seduta.",
+        "mus": "Grande e piccolo pettorale, deltoide anteriore.",
+        "pos": "Avambraccio appoggiato allo stipite della porta, gomito all'altezza della spalla.",
+        "ese": "Fai un passo avanti con la gamba dello stesso lato e ruota piano il busto dalla parte opposta finché senti l'allungamento.",
+        "resp": "Lento, con l'espirazione lunga.",
+        "senti": "Il petto e la parte anteriore della spalla.",
+        "no": "Inarcare la schiena per andare più avanti, forzare fino al dolore. Se senti formicolio nel braccio, abbassa il gomito o esci dalla posizione."
+      }
+    },
+    "st-dorsali": {
+      "name": "Dorsali appeso alla sbarra",
+      "type": "hold",
+      "load": "none",
+      "img": null,
+      "yt": "dead hang sbarra benefici tecnica",
+      "info": {
+        "lead": "Allunga dorsali e spalle sfruttando il peso del corpo.",
+        "mus": "Gran dorsale, pettorali, muscoli attorno alla spalla.",
+        "pos": "Appeso alla sbarra con una presa comoda, piedi a terra o su una sedia se vuoi scaricare parte del peso.",
+        "ese": "Lascia salire le spalle verso le orecchie e rilassa tutto il corpo, sentendoti allungare.",
+        "resp": "Lento e regolare.",
+        "senti": "I fianchi e le ascelle che si allungano.",
+        "no": "Restare appeso se la spalla fa male, dondolare."
+      }
+    },
+    "st-toracica": {
+      "name": "Rotazione toracica a libro aperto",
+      "type": "reps",
+      "load": "none",
+      "side": true,
+      "img": null,
+      "yt": "open book stretch rotazione toracica",
+      "tempo": [["Apri",2],["Tieni",2.5],["Torna",2]],
+      "info": {
+        "lead": "Muove in rotazione la parte alta della schiena, che spesso si irrigidisce con la vita sedentaria.",
+        "mus": "Muscoli della parte alta della schiena e del torace, pettorale.",
+        "pos": "Sdraiato sul fianco, anche e ginocchia piegate a 90° davanti a te, braccia tese in avanti con i palmi uniti.",
+        "ese": "Apri il braccio di sopra descrivendo un arco verso il lato opposto, seguendolo con lo sguardo e lasciando ruotare il busto. Tieni 2–3 secondi in fondo e torna.",
+        "resp": "Espira mentre apri.",
+        "senti": "La parte alta della schiena che ruota, il petto che si apre.",
+        "no": "Staccare le ginocchia da terra, perché la rotazione si sposterebbe sulla zona lombare."
+      }
+    },
+    "st-trapezio": {
+      "name": "Trapezio",
+      "type": "hold",
+      "load": "none",
+      "img": "Side_Neck_Stretch",
+      "imgNote": "Puoi appoggiare la mano sulla testa come in foto, senza tirare. Per il lato destro tieni la mano destra sotto la coscia.",
+      "yt": "stretching trapezio superiore",
+      "info": {
+        "lead": "Scioglie la parte alta della spalla e il lato del collo.",
+        "mus": "Trapezio superiore e muscoli laterali del collo.",
+        "pos": "Seduto dritto. Per il lato destro, infila la mano destra sotto la coscia destra per tenere bassa la spalla.",
+        "ese": "Inclina lentamente la testa verso il lato opposto finché senti l'allungamento. Puoi appoggiare l'altra mano sulla testa, senza tirare.",
+        "resp": "Lento, con l'espirazione lunga.",
+        "senti": "Il lato del collo e la parte alta della spalla.",
+        "no": "Tirare la testa con forza, sollevare la spalla. Se compare formicolio nel braccio, esci dalla posizione."
+      }
+    },
+    "st-flessori": {
+      "name": "Flessori dell'anca in ginocchio",
+      "type": "hold",
+      "load": "none",
+      "img": "Kneeling_Hip_Flexor",
+      "yt": "stretching flessori anca in ginocchio",
+      "info": {
+        "lead": "Allunga i muscoli davanti all'anca, che si accorciano stando seduti.",
+        "mus": "Ileopsoas e retto femorale.",
+        "pos": "Un ginocchio a terra su un cuscino, l'altro piede davanti con il ginocchio a 90°. Busto dritto.",
+        "ese": "Contrai il gluteo della gamba dietro e arrotonda leggermente il bacino verso l'alto, poi sposta il bacino in avanti di pochi centimetri.",
+        "resp": "Lento, con l'espirazione lunga.",
+        "senti": "La parte anteriore dell'anca della gamba dietro.",
+        "no": "Inarcare la zona lombare, che dà una falsa sensazione di allungamento; spostarti troppo in avanti."
+      }
+    },
+    "st-posteriori": {
+      "name": "Posteriori della coscia con elastico",
+      "type": "hold",
+      "load": "none",
+      "img": "Leg-Up_Hamstring_Stretch",
+      "imgNote": "In foto senza elastico: con l'elastico sotto il piede tieni la gamba più facilmente.",
+      "yt": "stretching femorali elastico sdraiato",
+      "info": {
+        "lead": "Allunga i posteriori della coscia senza caricare la schiena.",
+        "mus": "Posteriori della coscia.",
+        "pos": "Sdraiato sulla schiena, elastico sotto la pianta di un piede, l'altra gamba distesa a terra o piegata.",
+        "ese": "Porta in alto la gamba con l'elastico, ginocchio quasi teso, finché senti l'allungamento dietro la coscia.",
+        "resp": "Lento, con l'espirazione lunga.",
+        "senti": "Dietro la coscia, non dietro il ginocchio.",
+        "no": "Staccare il bacino da terra, tirare con strappi. Se senti formicolio scendere lungo la gamba, piega un po' il ginocchio e abbassa la gamba."
+      }
+    },
+    "st-9090": {
+      "name": "Anche in posizione 90/90",
+      "type": "reps",
+      "load": "none",
+      "img": null,
+      "yt": "90 90 hip switch mobilità anche",
+      "tempo": [["Ruota",3],["Pausa",2]],
+      "info": {
+        "lead": "Muove le anche in rotazione interna ed esterna.",
+        "mus": "Rotatori dell'anca e glutei.",
+        "pos": "Seduto a terra, una gamba davanti e una di lato, entrambe con il ginocchio a 90°. Mani a terra dietro di te come appoggio.",
+        "ese": "Ruota lentamente le ginocchia da un lato all'altro, cambiando la gamba davanti, tenendo il busto alto.",
+        "resp": "Espira mentre ruoti.",
+        "senti": "Le anche che ruotano, con un allungamento leggero nei glutei.",
+        "no": "Forzare le ginocchia a terra con le mani, continuare se il ginocchio fa male."
+      }
+    },
+    "st-polpacci": {
+      "name": "Polpacci al muro",
+      "type": "hold",
+      "load": "none",
+      "img": "Calf_Stretch_Hands_Against_Wall",
+      "yt": "stretching polpacci al muro",
+      "info": {
+        "lead": "Allunga i polpacci dopo i giorni di parte bassa.",
+        "mus": "Gastrocnemio a ginocchio teso, soleo a ginocchio piegato.",
+        "pos": "Mani al muro, una gamba avanti piegata, l'altra dietro tesa con il tallone a terra e la punta dritta.",
+        "ese": "Porta il bacino verso il muro finché senti l'allungamento nel polpaccio dietro. Se vuoi, alla fine piega leggermente il ginocchio dietro per allungare il soleo.",
+        "resp": "Lento, con l'espirazione lunga.",
+        "senti": "Il polpaccio della gamba dietro.",
+        "no": "Alzare il tallone, ruotare il piede in fuori."
+      }
+    }
+  },
+  "tenutePerLato": ["plank-laterale","bird-dog","st-petto","st-trapezio","st-flessori","st-posteriori","st-polpacci","st-toracica"],
+  "blocchi": {
+    "riscaldamento-schiena": [
+      {"ex":"gatto-mucca","sets":1,"spec":{"lo":10,"hi":10},"rest":15},
+      {"ex":"curl-up","sets":1,"spec":{"n":3,"secs":10},"rest":15},
+      {"ex":"plank-laterale","sets":1,"spec":{"n":2,"secs":10,"side":"block"},"rest":15},
+      {"ex":"bird-dog","sets":1,"spec":{"n":3,"secs":10,"side":"alt"},"rest":30}
+    ],
+    "riscaldamento-alto": [
+      {"ex":"aperture","sets":2,"spec":{"lo":15,"hi":15},"rest":30,"key":"aperture-risc"},
+      {"ex":"scapole","sets":2,"spec":{"lo":8,"hi":8},"rest":30},
+      {"ex":"rotazioni-esterne","sets":1,"spec":{"lo":15,"hi":15},"rest":30}
+    ],
+    "riscaldamento-basso": [
+      {"ex":"ponte","sets":1,"spec":{"lo":10,"hi":10},"rest":20,"key":"ponte-risc"},
+      {"ex":"goblet","sets":2,"spec":{"lo":5,"hi":5},"rest":45},
+      {"ex":"affondi-cl","sets":1,"spec":{"lo":5,"hi":5},"rest":30}
+    ],
+    "mobilita-alto": [
+      {"ex":"st-petto","sets":2,"spec":{"lo":30,"hi":45},"rest":10},
+      {"ex":"st-dorsali","sets":2,"spec":{"lo":30,"hi":30},"rest":15},
+      {"ex":"st-toracica","sets":1,"spec":{"lo":8,"hi":8},"rest":10},
+      {"ex":"st-trapezio","sets":2,"spec":{"lo":30,"hi":30},"rest":10}
+    ],
+    "mobilita-basso": [
+      {"ex":"st-flessori","sets":2,"spec":{"lo":45,"hi":45},"rest":10},
+      {"ex":"st-posteriori","sets":2,"spec":{"lo":45,"hi":45},"rest":10},
+      {"ex":"st-9090","sets":1,"spec":{"lo":5,"hi":5},"rest":10},
+      {"ex":"st-polpacci","sets":2,"spec":{"lo":30,"hi":30},"rest":10}
+    ]
+  },
+  "giorni": {
+    "g1": {
+      "label": "Parte alta A",
+      "short": "Alta A",
+      "tag": "Giorno 1",
+      "program": true,
+      "sections": [
+        {
+          "t": "Riscaldamento",
+          "note": "10 minuti",
+          "items": [{"blocco":"riscaldamento-schiena"},{"blocco":"riscaldamento-alto"}]
+        },
+        {
+          "t": "Lavoro",
+          "items": [
+            {"ex":"trazioni","sets":4,"spec":{"lo":6,"hi":10},"rest":150,"main":true,"heavy":true},
+            {"ex":"dip","sets":3,"spec":{"lo":6,"hi":12},"rest":150,"main":true,"heavy":true},
+            {"ex":"rematore-bil","sets":3,"spec":{"lo":8,"hi":12},"rest":120,"main":true,"heavy":true},
+            {"ex":"lento","sets":3,"spec":{"lo":6,"hi":10},"rest":150,"main":true,"heavy":true},
+            {"ex":"curl","sets":3,"spec":{"lo":10,"hi":15},"rest":75,"main":true},
+            {"ex":"estensioni","sets":3,"spec":{"lo":10,"hi":15},"rest":75,"main":true},
+            {"ex":"face-pull","sets":3,"spec":{"lo":15,"hi":20},"rest":60,"main":true}
+          ]
+        },
+        {"t":"Mobilità","note":"10 minuti","items":[{"blocco":"mobilita-alto"}]}
+      ]
+    },
+    "g2": {
+      "label": "Parte bassa A",
+      "short": "Bassa A",
+      "tag": "Giorno 2",
+      "program": true,
+      "lower": true,
+      "sections": [
+        {
+          "t": "Riscaldamento",
+          "note": "10 minuti",
+          "items": [{"blocco":"riscaldamento-schiena"},{"blocco":"riscaldamento-basso"}]
+        },
+        {
+          "t": "Lavoro",
+          "items": [
+            {"ex":"stacco-rumeno","sets":3,"spec":{"lo":6,"hi":10},"rest":150,"main":true,"heavy":true},
+            {"ex":"bulgaro","sets":3,"spec":{"lo":8,"hi":15},"rest":90,"main":true,"heavy":true},
+            {"ex":"hip-thrust","sets":3,"spec":{"lo":8,"hi":15},"rest":120,"main":true,"heavy":true},
+            {"ex":"leg-curl","sets":3,"spec":{"lo":8,"hi":12},"rest":90,"main":true},
+            {"ex":"polpacci","sets":3,"spec":{"lo":10,"hi":20},"rest":60,"main":true},
+            {"ex":"carry","sets":3,"spec":{"lo":30,"hi":40},"rest":60,"main":true}
+          ]
+        },
+        {"t":"Mobilità","note":"10 minuti","items":[{"blocco":"mobilita-basso"}]}
+      ]
+    },
+    "g3": {
+      "label": "Parte alta B",
+      "short": "Alta B",
+      "tag": "Giorno 3",
+      "program": true,
+      "sections": [
+        {
+          "t": "Riscaldamento",
+          "note": "10 minuti",
+          "items": [{"blocco":"riscaldamento-schiena"},{"blocco":"riscaldamento-alto"}]
+        },
+        {
+          "t": "Lavoro",
+          "items": [
+            {"ex":"piegamenti-anelli","sets":4,"spec":{"lo":8,"hi":15},"rest":120,"main":true,"heavy":true},
+            {"ex":"trazioni-supine","sets":3,"spec":{"lo":6,"hi":12},"rest":150,"main":true,"heavy":true},
+            {"ex":"rematore-man","sets":3,"spec":{"lo":10,"hi":15},"rest":75,"main":true},
+            {"ex":"distensioni","sets":3,"spec":{"lo":12,"hi":20},"rest":90,"main":true},
+            {"ex":"alzate","sets":3,"spec":{"lo":12,"hi":20},"rest":60,"main":true},
+            {"ex":"martello","sets":2,"spec":{"lo":10,"hi":15},"rest":60,"main":true},
+            {"ex":"french","sets":2,"spec":{"lo":10,"hi":15},"rest":75,"main":true},
+            {"ex":"aperture","sets":2,"spec":{"lo":20,"hi":20},"rest":45,"main":true}
+          ]
+        },
+        {"t":"Mobilità","note":"10 minuti","items":[{"blocco":"mobilita-alto"}]}
+      ]
+    },
+    "g4": {
+      "label": "Parte bassa B",
+      "short": "Bassa B",
+      "tag": "Giorno 4",
+      "program": true,
+      "lower": true,
+      "sections": [
+        {
+          "t": "Riscaldamento",
+          "note": "10 minuti",
+          "items": [{"blocco":"riscaldamento-schiena"},{"blocco":"riscaldamento-basso"}]
+        },
+        {
+          "t": "Lavoro",
+          "items": [
+            {"ex":"stacco","sets":3,"spec":{"lo":5,"hi":8},"rest":180,"main":true,"heavy":true},
+            {"ex":"squat-frontale","sets":3,"spec":{"lo":10,"hi":20},"rest":120,"main":true,"heavy":true},
+            {"ex":"affondi","sets":3,"spec":{"lo":10,"hi":15},"rest":90,"main":true},
+            {"ex":"rumeno-una","sets":3,"spec":{"lo":8,"hi":12},"rest":75,"main":true},
+            {"ex":"pallof","sets":3,"spec":{"lo":10,"hi":10},"rest":45,"main":true},
+            {"ex":"ginocchia-appeso","sets":3,"spec":{"lo":8,"hi":15},"rest":60,"main":true}
+          ]
+        },
+        {"t":"Mobilità","note":"10 minuti","items":[{"blocco":"mobilita-basso"}]}
+      ]
+    },
+    "mer": {
+      "label": "Camminata e mobilità",
+      "short": "Camminata",
+      "tag": "Recupero attivo",
+      "sections": [
+        {"t":"Camminata","items":[{"ex":"camminata","sets":1,"spec":{"lo":30,"hi":30},"rest":0,"key":"camminata-mer"}]},
+        {
+          "t": "Mobilità",
+          "note": "tutti gli allungamenti, una volta",
+          "items": [
+            {"ex":"st-petto","sets":1,"spec":{"lo":30,"hi":45},"rest":10},
+            {"ex":"st-dorsali","sets":1,"spec":{"lo":30,"hi":30},"rest":10},
+            {"ex":"st-toracica","sets":1,"spec":{"lo":8,"hi":8},"rest":10},
+            {"ex":"st-trapezio","sets":1,"spec":{"lo":30,"hi":30},"rest":10},
+            {"ex":"st-flessori","sets":1,"spec":{"lo":45,"hi":45},"rest":10},
+            {"ex":"st-posteriori","sets":1,"spec":{"lo":45,"hi":45},"rest":10},
+            {"ex":"st-9090","sets":1,"spec":{"lo":5,"hi":5},"rest":10},
+            {"ex":"st-polpacci","sets":1,"spec":{"lo":30,"hi":30},"rest":10}
+          ]
+        }
+      ]
+    },
+    "f1": {
+      "label": "Schiena fase 1",
+      "short": "Schiena",
+      "tag": "Fase 1",
+      "back": true,
+      "sections": [
+        {
+          "t": "Core leggero",
+          "note": "ogni giorno finché c'è fastidio",
+          "items": [
+            {"ex":"gatto-mucca","sets":1,"spec":{"lo":10,"hi":10},"rest":15,"key":"f1-gatto"},
+            {"ex":"curl-up","sets":3,"spec":{"n":[5,3,1],"secs":10},"rest":20,"key":"f1-curlup"},
+            {
+              "ex": "plank-laterale",
+              "sets": 3,
+              "spec": {"n":[5,3,1],"secs":10,"side":"block"},
+              "rest": 20,
+              "key": "f1-plank",
+              "note": "Versione sulle ginocchia."
+            },
+            {"ex":"bird-dog","sets":3,"spec":{"n":[6,4,2],"secs":10,"side":"alt"},"rest":20,"key":"f1-birddog"},
+            {"ex":"ponte","sets":2,"spec":{"lo":10,"hi":12},"rest":30,"key":"f1-ponte"},
+            {"ex":"ginocchia-petto","sets":3,"spec":{"lo":20,"hi":30},"rest":10,"key":"f1-ginocchia"}
+          ]
+        },
+        {"t":"Camminata","items":[{"ex":"camminata","sets":1,"spec":{"lo":20,"hi":30},"rest":0,"key":"f1-camminata"}]}
+      ]
+    },
+    "min": {
+      "label": "Piano minimo",
+      "short": "Minimo",
+      "tag": "Esami o infortuni",
+      "minimum": true,
+      "sections": [
+        {"t":"Riscaldamento","note":"per la schiena","items":[{"blocco":"riscaldamento-schiena"}]},
+        {
+          "t": "Lavoro",
+          "note": "stessi pesi, 1–2 ripetizioni di riserva",
+          "items": [
+            {"ex":"trazioni","sets":2,"spec":{"lo":6,"hi":10},"rest":150,"main":true,"heavy":true},
+            {"ex":"piegamenti-anelli","sets":2,"spec":{"lo":8,"hi":15},"rest":120,"main":true,"heavy":true},
+            {"ex":"stacco-rumeno","sets":2,"spec":{"lo":6,"hi":10},"rest":150,"main":true,"heavy":true},
+            {"ex":"bulgaro","sets":2,"spec":{"lo":8,"hi":15},"rest":90,"main":true,"heavy":true},
+            {"ex":"rematore-man","sets":2,"spec":{"lo":10,"hi":15},"rest":75,"main":true}
+          ]
+        }
+      ]
+    }
+  },
+  "ordineGiorni": ["g1","g2","g3","g4","mer","f1","min"],
+  "ciclo": ["g1","g2","g3","g4"],
+  "fasi": {
+    "nomi": {"rientro":"Rientro","costruzione":"Costruzione","scarico":"Scarico"},
+    "settimane": {"rientro":4,"costruzione":6,"scarico":1},
+    "serie": {"rientro":{"meno":1},"scarico":{"frazione":0.5}},
+    "sottotitolo": {"rientro":"serie in meno, tecnica prima di tutto","costruzione":"serie piene","scarico":"metà serie, stessi pesi"},
+    "descrizione": "Rientro settimane 1–4, costruzione 5–10, scarico 11, poi di nuovo costruzione. Anticipa lo scarico se dormi peggio o la forza cala per due sessioni di fila."
+  },
+  "riserva": {
+    "pianoMinimo": "riserva 1–2",
+    "fasi": {
+      "rientro": {"base":"riserva 3","isolamento":"riserva 2"},
+      "costruzione": {"base":"riserva 1–3","isolamento":"riserva 0–1"},
+      "scarico": {"base":"riserva 3 o più","isolamento":"riserva 3 o più"}
+    },
+    "esercizi": {"stacco":{"rientro":"riserva 3","costruzione":"riserva 2–3","scarico":"riserva 3"}}
+  },
+  "sostituzioni": [
+    {
+      "giorno": "g1",
+      "ex": "dip",
+      "fase": "rientro",
+      "finoSettimana": 2,
+      "con": {
+        "ex": "tenuta-anelli",
+        "sets": 3,
+        "spec": {"lo":20,"hi":20},
+        "rest": 90,
+        "main": true,
+        "note": "Settimane 1 e 2: tenuta al posto dei dip."
+      }
+    }
+  ],
+  "schiena": {"soglia":4,"giorno":"f1"},
+  "attrezzatura": {
+    "profiloAttivo": "casa",
+    "profili": {
+      "casa": {
+        "nome": "Casa",
+        "bilanciere": {"peso":10},
+        "dischi": [{"kg":2,"quantita":8},{"kg":1,"quantita":4}],
+        "impugnatureManubrio": {"peso":1,"quantita":2},
+        "panca": false,
+        "altro": ["sbarra","paralleline","anelli","tappetino","elastici"]
+      }
+    }
+  },
+  "attivita": [],
+  "zone": [
+    "Schiena bassa",
+    "Schiena alta",
+    "Trapezio dx",
+    "Trapezio sx",
+    "Collo",
+    "Spalla dx",
+    "Spalla sx",
+    "Gomito",
+    "Polso",
+    "Anca",
+    "Ginocchio",
+    "Caviglia",
+    "Altro"
+  ]
+}
