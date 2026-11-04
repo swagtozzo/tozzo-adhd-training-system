@@ -9,7 +9,7 @@ Funziona da sola, senza account né server. I dati restano nella memoria del tel
 1. Crea un account gratuito su github.com, se non ce l'hai.
 2. In alto a destra premi **+** e poi **New repository**. Nome: `allenamento`. Lascialo **Public**, perché GitHub Pages gratuito funziona solo con i repository pubblici. Premi **Create repository**.
 3. Nella pagina del repository premi **uploading an existing file**.
-4. Trascina nella pagina **tutto il contenuto** di questa cartella: `index.html`, `sw.js`, `manifest.webmanifest`, `LEGGIMI.md` e le cartelle `img`, `fonts` e `icons`. Premi **Commit changes**.
+4. Trascina nella pagina **tutto il contenuto** di questa cartella: `index.html`, `sw.js`, `manifest.webmanifest`, `LEGGIMI.md` e le cartelle `data`, `img`, `fonts` e `icons`. Premi **Commit changes**.
 5. Vai in **Settings**, poi **Pages**. Alla voce **Source** scegli **Deploy from a branch**, branch `main`, cartella `/ (root)`, e premi **Save**.
 6. Dopo uno o due minuti l'app è online su `https://TUONOME.github.io/allenamento/`.
 
@@ -35,7 +35,9 @@ L'app ti ricorda il backup se sono passate più di due settimane dall'ultimo.
 
 ## Aggiornare l'app
 
-Quando sostituisci i file su GitHub, apri `sw.js` e cambia il numero in `const VERSION = "1.0";`, per esempio in `"1.1"`. Alla successiva apertura l'app mostra **Aggiorna ora**. I dati non vengono toccati.
+Quando sostituisci i file su GitHub, apri `sw.js` e cambia il numero in `const VERSION = "1.1";`, per esempio in `"1.2"`. Alla successiva apertura l'app mostra **Aggiorna ora**. I dati non vengono toccati.
+
+Il programma (esercizi, giorni, serie, recuperi, fasi) sta in `data/programma.json`: per cambiarlo basta modificare quel file, senza toccare `index.html`. Anche in questo caso va cambiato `VERSION` in `sw.js`, altrimenti il telefono continua a usare il programma vecchio salvato per l'uso offline. Se il file contiene un errore, l'app lo dice all'apertura e non tocca i dati. Lo schema del file è descritto in `CLAUDE.md`.
 
 ## Licenze
 
