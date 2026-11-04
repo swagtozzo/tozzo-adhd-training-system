@@ -1,10 +1,12 @@
 /* Rimessa in forma: funzionamento offline.
    Per pubblicare un aggiornamento, cambia VERSION: l'app mostrerà "Aggiorna ora". */
-const VERSION = "1.1";
+const VERSION = "1.2";
 const CACHE = "rimessa-in-forma-" + VERSION;
 const ASSETS = [
   "./",
   "./index.html",
+  "./app.css",
+  "./app.js",
   "./manifest.webmanifest",
   "./data/programma.json",
   "./icons/apple-touch-icon.png",
