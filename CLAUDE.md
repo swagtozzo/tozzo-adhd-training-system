@@ -7,21 +7,24 @@ PWA personale di allenamento ("Rimessa in forma"). Pubblicata su GitHub Pages, u
 ## Chi la usa
 - Andrea, 27 anni, 1,85 m, 76 kg. Riparte molto deallenato dopo circa un anno e mezzo sedentario. In passato basket, pesi e corpo libero.
 - Obiettivo: tornare muscoloso e definito, ma anche flessibile e in salute. Attenzione alla schiena: ogni sessione ha riscaldamento core e mobilità.
-- Si allena a casa, 4 giorni a settimana, circa 75 minuti, alternando parte alta e parte bassa. Ciclo: rientro (sett. 1–4), costruzione (5–10), scarico (11), poi si riparte.
-- Attrezzatura: sbarra, paralleline, anelli, tappetino, elastici. Niente panca. Bilanciere dritto non olimpionico (circa 10 kg), dischi 8 × 2 kg e 4 × 1 kg, due impugnature manubrio da 1 kg. Quindi: bilanciere al massimo circa 30 kg, manubri circa 11 kg per mano (21 kg con uno solo), e i dischi vanno spostati tra un esercizio e l'altro.
+- Si allena a casa, 4 giorni a settimana, circa 75 minuti, alternando parte alta e parte bassa.
+- **Ciclo (corretto così, non cambiare `autoPhase`)**: il rientro si fa una volta sola, settimane 1–4. Poi si ripetono all'infinito blocchi di 6 settimane di costruzione + 1 di scarico: costruzione 5–10, scarico 11, costruzione 12–17, scarico 18, e così via. Le durate stanno in `fasi.settimane` di `programma.json`.
+- Attrezzatura (profilo "casa" in `programma.json`): sbarra, paralleline, anelli, tappetino, elastici. Niente panca. Bilanciere dritto non olimpionico da 10 kg, dischi 8 × 2 kg e 4 × 1 kg, due impugnature manubrio da 1 kg. L'app ne ricava i massimi: bilanciere 30 kg, manubri 11 kg per mano, 21 kg con uno solo. I dischi vanno spostati tra un esercizio e l'altro.
 
 ## Vincoli non negoziabili
 - **Indipendente e offline**: niente account, server, API, CDN o dipendenze esterne. Tutto deve funzionare senza connessione.
 - **Dati sul telefono**: IndexedDB `DB_NAME = "rimessa-in-forma"` (store `docs`), con ripiego su localStorage `LS_KEY = "rimessa-in-forma-v1"`. Non cambiare chiavi o formato dei dati salvati senza una migrazione.
 - **Backup**: "Ripristina da file" deve continuare ad accettare tutti i backup esistenti: formato attuale (`sessioni` come elenco, `impostazioni`, `misure`) e formato vecchio (`sessions` come oggetto, `settings`, `measures`).
 - Interfaccia in italiano, pensata per il telefono.
-- A ogni modifica pubblicata: aggiorna `VERSION` in `sw.js` (e `APP_VERSION` in `index.html`) e la lista `ASSETS` se aggiungi o rinomini file.
+- A ogni modifica pubblicata: aggiorna `VERSION` in `sw.js` (e `APP_VERSION` in `app.js`) e la lista `ASSETS` se aggiungi o rinomini file.
 - Il repo è pubblico: non committare mai libri, PDF o archivi (vedi `.gitignore`).
 
 ## Struttura
-- `index.html`: CSS, markup e tutto lo script.
+- `index.html`: solo intestazione e markup (testata, viste, barra di recupero, timer guidato, scheda, menu in basso). Carica `app.css` e `app.js`.
+- `app.css`: tutti gli stili, con tema chiaro e scuro.
+- `app.js`: tutto lo script, uno script classico con variabili globali e senza moduli.
   - helper `h()`/`sv()` per creare il DOM, formattazione date;
-  - **programma**: `applyProgram()` e `loadProgram()` leggono `data/programma.json` e riempiono `P` (il file intero), `EX`, `DAYS`, `DAY_ORDER`, `CYCLE`, `PH`, `ZONES`, `SIDE_EX`;
+  - **programma**: `applyProgram()` e `loadProgram()` leggono `data/programma.json` e riempiono `P` (il file intero), `EX` (con le varianti del profilo attivo già applicate), `DAYS`, `DAY_ORDER`, `CYCLE`, `PH`, `ZONES`, `SIDE_EX`, `ATT` (profilo attivo e carichi massimi), `ATTIVITA`;
   - **stato e salvataggio**: `DEF` (impostazioni predefinite), `S` (stato), `persist()`/`flush()` verso IndexedDB o localStorage;
   - settimane e fasi (`weekNo`, `autoPhase`, `phaseFor`), sessioni (`newSession`, `dayItems`, `entry`, `newSet`);
   - rendering: `renderOggi`, `card`, `setRow`, `renderDiario`, `renderProgressi`, `renderImpost`, scheda esercizio `openSheet`;
@@ -37,7 +40,8 @@ Gli id (chiavi di `esercizi` e `giorni`, e la `key` delle voci) finiscono nei da
 
 - `esercizi`: `{ id: esercizio }`
   - `name`, `type`: `reps` (ripetizioni), `holds` (tenute contate), `hold` (una tenuta in secondi), `time` (minuti), `carry` (camminata con peso);
-  - `load`: `kg`, `extra` (zavorra) o `none`. `db: true` = manubri, `side: true` = un lato alla volta, `iso: true` = isolamento (cambia la riserva);
+  - `load`: `kg`, `extra` (zavorra) o `none`. `db: true` = manubri (`manubri: 1` facoltativo se ne usa uno solo, per il limite di carico), `side: true` = un lato alla volta, `iso: true` = isolamento (cambia la riserva);
+  - `varianti` (facoltativo): `{ profilo: { campi da sostituire } }`. Con quel profilo attivo i campi della variante sostituiscono quelli base, e `info` si unisce campo per campo. Esempio: `"varianti": { "palestra": { "name": "Distensioni su panca", "info": { "pos": "…" } } }`. L'id dell'esercizio resta lo stesso, quindi lo storico non si spezza;
   - `img`: nome del file in `img/` senza `-0.jpg`, oppure `null`. `imgNote` facoltativa;
   - `yt`: ricerca YouTube. `tempo`: fasi del ritmo guidato, `[["Giù", 3], ["Su", 1.5]]`;
   - `info`: `lead`, `mus`, `pos`, `ese`, `resp`, `senti`, `no`, `extra` (elenco di `[titolo, testo]`).
@@ -62,10 +66,21 @@ Gli id (chiavi di `esercizi` e `giorni`, e la `key` delle voci) finiscono nei da
 - `riserva`: `pianoMinimo`, `fasi.{fase}.{base, isolamento}`, `esercizi.{id}.{fase}` per eccezioni come lo stacco.
 - `sostituzioni`: `[{ giorno, ex, fase?, finoSettimana?, con: voce }]`, cioè quando sostituire una voce (oggi: dip → tenuta agli anelli nelle settimane 1–2).
 - `schiena`: `{ soglia, giorno }`. Con fastidio ≥ soglia in un giorno `lower` l'app propone di passare a quel giorno.
-- `maxManubriKg`: oltre questo carico l'app suggerisce di rallentare invece di aumentare il peso.
 - `zone`: zone del fastidio a fine sessione.
+- `attrezzatura`: `{ profiloAttivo, profili: { id: profilo } }`. Oggi c'è solo `casa`; in futuro, ad esempio, `palestra`. Un profilo contiene:
+  - `nome`;
+  - `bilanciere: { peso }` (assente = niente bilanciere);
+  - `dischi: [{ kg, quantita }]`;
+  - `impugnatureManubrio: { peso, quantita }`;
+  - `panca` (true/false);
+  - `altro`: elenco libero.
 
-All'avvio l'app controlla che esercizi, blocchi, giorni e fasi citati esistano. Se il file è rotto mostra un messaggio e non tocca i dati.
+  I massimi si calcolano così: impugnatura + 2 × (per ogni tipo di disco, kg × quantità divisa in parti uguali tra i lati dei bilancieri o manubri caricati insieme, arrotondata per difetto). Quindi `ATT.maxBilanciere`, `ATT.maxManubri` (per mano, con due manubri) e `ATT.maxManubrioSingolo`. Con le serie chiuse al massimo delle ripetizioni a quel carico, l'app suggerisce di rallentare invece di aumentare il peso. Il carico registrato è il totale del bilanciere, o il peso di un manubrio. `panca` per ora viene solo letto.
+- `attivita`: `[{ id, nome, giorni: ["lun"…"dom"], durataMin, note? }]`, cioè attività della settimana che non sono pesi (pugilato, camminate…), senza serie né carichi. Per ora vengono caricate e controllate (`ATTIVITA`) ma non mostrate: l'interfaccia è da fare.
+
+All'avvio l'app controlla che esercizi, blocchi, giorni, fasi, profilo di attrezzatura e attività siano coerenti. Se il file è rotto mostra un messaggio e non tocca i dati.
+
+Per aggiungere in futuro un profilo palestra: aggiungi il profilo in `attrezzatura.profili`, le `varianti.palestra` agli esercizi che cambiano e cambia `profiloAttivo`. Servirà poi un selettore nelle Impostazioni, salvato in `S.settings` con un campo nuovo e un valore predefinito in `DEF`, così i dati vecchi restano validi.
 
 ## Provarla in locale
 ```bash
@@ -84,7 +99,7 @@ Confronta gli screenshot prima e dopo una modifica. Nota: al primissimo avvio l'
 
 ## Rilascio
 1. Lavora su un branch, commit piccoli. Push solo su richiesta di Andrea.
-2. Aggiorna `VERSION` in `sw.js` e `APP_VERSION` in `index.html`. Se aggiungi o rinomini file (immagini comprese), aggiorna `ASSETS`.
+2. Aggiorna `VERSION` in `sw.js` e `APP_VERSION` in `app.js`. Se aggiungi o rinomini file (immagini comprese), aggiorna `ASSETS`.
 3. Anche una modifica al solo `data/programma.json` richiede di cambiare `VERSION`: altrimenti il telefono continua a usare la copia in cache.
 4. Dopo il merge su `main`, GitHub Pages pubblica. Sul telefono compare "Aggiorna ora".
 
